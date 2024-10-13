@@ -1,9 +1,13 @@
 ---
-title: "Blood Level"
-slug: "blood-level"
+title: "Pharmacokinetics"
+slug: "pharmacokinetics"
 description: "Electron/Django App that estimates the plasma concentration of a drug, given an accurate dose history, and pharmacokinetic data."
 date: "2022-11-22"
 image: main.png
+
+domains:
+    - "Web"
+    - "Desktop"
 
 categories:
     - "Python"

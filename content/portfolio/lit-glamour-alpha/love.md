@@ -38,7 +38,6 @@ images:
 
 
 
-published: true
 live_url: "https://getlit.art/"
 github_url: ""
 ---
