@@ -2,7 +2,7 @@
 title: "InstaCare"
 slug: "instacare"
 description: "My work as a System Analyst with the MARA Group, helping to bring a SAAS Product to launch in the Digital Health space."
-date: "2021-12-14"
+date: "2022-06-06"
 image: main.png
 
 categories:

@@ -2,7 +2,7 @@
 title: "Lit Glamour Alpha"
 slug: "lit-glamour-alpha"
 description: "An ambitious plan: scale up to a dozen units within 6 months. Call it stupid, or brave; either way, assumptions were validated."
-date: "2023-04-01"
+date: "2023-06-26"
 image: panel.png
 
 ---
