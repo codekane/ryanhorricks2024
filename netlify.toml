@@ -1,0 +1,16 @@
+[build]
+  command = "hugo mod get -u && hugo --gc --minify -b $URL""
+  publish = "public"
+
+[build.enrivonment]
+  NODE_ENV = "production"
+  HUGO_VERSION = "0.135.0"
+  TZ = "MST"
+
+[context.production.environment]
+  HUGO_VERSION = "0.135.0"
+  HUGO_ENV = "production"
+
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.135.0"
+
