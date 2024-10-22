@@ -6,10 +6,25 @@ date: "2023-06-26"
 image: panel.png
 
 ---
-![Eight Epoxy](eight-epoxy.png)
-![Half Wired](half-wired.png)
-![Install Epoxy](install-epoxy.png)
-![Panel](panel.png)
-![Six-1](six-1.png) ![Six-2](six-two.png)
-![Star](star.png)
-![Three](three.png)
+This project started, in its current iteration, on New Years Eve, 2022. In fact, it began 3 years earlier, in 
+2019, when I made my first hat and found EVERYONE loved it.
+
+
+
+
+
+This is just some text to start things off. Clear out the formatting. Make it look PRETTier than it otherwise 
+would, until I've started to put in some actual content.
+
+
+{{<gallery>}}
+<img src="eight-epoxy.png" class="grid-w50 md:grid-w33"/>
+<img src="half-wired.png" class="grid-w50 md:grid-w33"/>
+<img src="install-epoxy.png" class="grid-w50 md:grid-w33"/>
+<img src="panel.png" class="grid-w50 md:grid-w33"/>
+<img src="six-1.png" class="grid-w50 md:grid-w33"/>
+<img src="six-two.png" class="grid-w50 md:grid-w33"/>
+<img src="star.png" class="grid-w50 md:grid-w33"/>
+<img src="three.png" class="grid-w50 md:grid-w33"/>
+{{</gallery>}}
+
