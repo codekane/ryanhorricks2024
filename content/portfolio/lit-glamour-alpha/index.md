@@ -18,13 +18,13 @@ would, until I've started to put in some actual content.
 
 
 {{<gallery>}}
-<img src="eight-epoxy.png" class="grid-w50 md:grid-w33"/>
-<img src="half-wired.png" class="grid-w50 md:grid-w33"/>
-<img src="install-epoxy.png" class="grid-w50 md:grid-w33"/>
-<img src="panel.png" class="grid-w50 md:grid-w33"/>
-<img src="six-1.png" class="grid-w50 md:grid-w33"/>
-<img src="six-two.png" class="grid-w50 md:grid-w33"/>
-<img src="star.png" class="grid-w50 md:grid-w33"/>
-<img src="three.png" class="grid-w50 md:grid-w33"/>
+<img src="eight-epoxy.jpg" class="grid-w50 md:grid-w33"/>
+<img src="half-wired.jpg" class="grid-w50 md:grid-w33"/>
+<img src="install-epoxy.jpg" class="grid-w50 md:grid-w33"/>
+<img src="panel.jpg" class="grid-w50 md:grid-w33"/>
+<img src="six-1.jpg" class="grid-w50 md:grid-w33"/>
+<img src="six-two.jpg" class="grid-w50 md:grid-w33"/>
+<img src="star.jpg" class="grid-w50 md:grid-w33"/>
+<img src="three.jpg" class="grid-w50 md:grid-w33"/>
 {{</gallery>}}
 
