@@ -5,6 +5,7 @@ summary: "Motiometer - IoT Sensor Project"
 slug: "emotors-direct"
 date: "2023-09-13 00:00:00-0700"
 image: main.png
+lastmod: "2024-10-14"
 domains:
     - Web
     - Mobile

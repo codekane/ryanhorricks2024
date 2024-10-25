@@ -5,6 +5,7 @@ description: "An ambitious plan: scale up to a dozen units within 6 months. Call
 summary: "An ambitious plan: scale up to a dozen units within 6 months. Call it stupid, or brave; either way, assumptions were validated."
 date: "2023-06-26"
 image: panel.png
+lastmod: "2024-10-22"
 
 ---
 This project started, in its current iteration, on New Years Eve, 2022. In fact, it began 3 years earlier, in 
