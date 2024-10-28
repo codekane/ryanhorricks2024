@@ -2,7 +2,7 @@
 title: "Alpha"
 slug: "alpha"
 summary: "Picking up where I left off in Lit Glamour Alpha, I proceeded to finish construction of the Alpha. Built using the ESP32-S3, It includes a microphone, enabling captivating sound-reactive visuals. Featuring a 5000mAh battery, it is in fact too heavy to comfortably wear for long periods (and yet I convinced someone to do it anyways)."
-date: "2023-12-06"
+date: "2023-08-18"
 lastmod: "2024-10-26"
 showDateUpdated: true
 ---
@@ -42,12 +42,6 @@ This is obviously the best video, and the one that should be included on the pag
 
 {{</gallery>}}
 
-## Tesselate
-
-{{<gallery>}}
-<img src="Tesselate.JPG" class="grid-w50" />
-{{</gallery>}}
-
 {{<youtube SNoeR45pvLM  >}}
 
 ## Updated Power Circuit
@@ -55,4 +49,9 @@ This is obviously the best video, and the one that should be included on the pag
 {{<gallery>}}
 <img src="New_Power_Circuit_Front.JPG" class="grid-w50" />
 <img src="New_Power_Circuit_Back.JPG" class="grid-w50" />
+{{</gallery>}}
+
+## Construction
+{{<gallery>}}
+<img src="Lights_Mounted_With_Epoxy.jpg" class="grid-w50" />
 {{</gallery>}}
