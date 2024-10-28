@@ -5,7 +5,7 @@ description: "An ambitious plan: scale up to a dozen units within 6 months. Call
 summary: "An ambitious plan: Design, Develop and Scale a product from 0 to a dozen units within 6 months... Typical startup energy. I didn't achieve my goal, however I figured out what I really wanted to make, and set the stage for everything to come. This is the story of the first six months."
 date: "2023-01-01"
 image: panel.png
-lastmod: "2024-10-22"
+lastmod: "2024-10-28"
 
 ---
 This project started, in its current iteration, on New Years Eve, 2022. In fact, it began 3 years earlier, in 
@@ -30,6 +30,7 @@ This project started, in its current iteration, on New Years Eve, 2022. In fact,
 
 ### All-Together
 {{<gallery>}}
+<img src="cowboy_stack.jpg" class="grid-w50" />
 <img src="Cowboy_Prototype_MK1.JPG" class="grid-w50"/>
 {{</gallery>}}
 
@@ -62,14 +63,18 @@ I quite liked. This proved to be something of an inspiration for the next phase 
 
 ### Double-Sided LED's
 {{<gallery>}}
-<img src="Heart_PCB_Schematic.JPG" class="grid-w50"/>
-<img src="panel.jpg" class="grid-w50"/>
+<img src="Heart_PCB_Schematic.JPG" class="grid-w50 md:grid-w33"/>
+<img src="panel.jpg" class="grid-w50 md:grid-w33"/>
+<img src="Lit_Glamour_Alpha.jpg" class="grid-w50 md:grid-w33"/>
+<img src="Panel_Corner_View.jpg" class="grid-w50 md:grid-w33" />
+<img src="Single_PCB_Palm.jpg" class="grid-w50 md:grid-w33"/>
+<img src="PCB_Wired_Breadboard.jpg" class="grid-w50 md:grid-w33"/>
+<img src="star.jpg" class="grid-w50 md:grid-w33"/>
 
 {{</gallery>}}
 
 ### Optical Simulations
-At this juncture, given my aim was to completely in-source the weighty LED strings I'd been using, I'd beene planning 
-to 3D print some optics. I went on a tangent here, and I satisfied a curiosity, as to how to go about simulating 
+At this juncture, given my aim was to completely in-source the weighty LED strings I'd been using, I'd beene planning to 3D print some optics. I went on a tangent here, and I satisfied a curiosity, as to how to go about simulating 
 what the optics were going to do, without actually building them (because that seemede hard, and I still hadn't 
 actually gotten into 3D Printing, at this point).
 
@@ -94,18 +99,5 @@ settling on FreeCAD instead, making use of the OpticsWorkbench plugin to trace m
 {{<gallery>}}
 <img src="Final_Countdown_Dual_Power_Supply.JPG" class="grid-w50" />
 <img src="Final_Countdown_ESP32_S3_Breadboard.JPG" class="grid-w50" />
-{{</gallery>}}
-
-## Bunch of Random-Ass Images
-
-{{<gallery>}}
-<img src="eight-epoxy.jpg" class="grid-w50 md:grid-w33"/>
-<img src="half-wired.jpg" class="grid-w50 md:grid-w33"/>
-<img src="install-epoxy.jpg" class="grid-w50 md:grid-w33"/>
-<img src="panel.jpg" class="grid-w50 md:grid-w33"/>
-<img src="six-1.jpg" class="grid-w50 md:grid-w33"/>
-<img src="six-two.jpg" class="grid-w50 md:grid-w33"/>
-<img src="star.jpg" class="grid-w50 md:grid-w33"/>
-<img src="three.jpg" class="grid-w50 md:grid-w33"/>
 {{</gallery>}}
 
