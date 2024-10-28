@@ -4,6 +4,7 @@ slug: "spokebooks"
 description: "A line of notebooks made out of metal wire, upcycled vinyl flooring, and the golden ratio."
 date: "2020-01-30"
 image: main.jpg
+lastmod: "2024-10-28"
 
 categories:
     - Manufacturing
@@ -21,25 +22,11 @@ tags:
 
 weight: 1
 ---
-
 ![BEAUTIFUL](BEAUTIFUL.jpg)
 
-![Do Not Panic](do-not-panic.jpg)![Black Limestone](black-limestone.jpg)![Blue Blue](blue-blue.jpg)
-![Blue Cream](blue-cream.jpg)![Burgundy Cream](burgundy-cream.jpg)![Burgundy Mist](burgundy-mist.jpg)
-![Colonial Blue](colonial-blue.jpg)![Don't Panic!](dontpanic.png)
+## Story
 
-![Don't Paniccccccc](dontpanicccc.jpg)
-
-![Green Green](green-green.jpg)![Green Hue](green-hue.jpg)![Green Limestone](green-limestone.jpg)
-![Green Tan](green-tan.jpg)![Grey Orange](grey-orange.jpg)![Grey White](grey-white.jpg)
-
-![Ensemble](original-evolved-sketchy-guy.png)
-
-![Original](original-shopify.png)![Original 2](original-shopify-2.png)
-
-![Pink Cream](pink-cream.jpg)![Purple Limestone](purple-limestone)![Silver River Rock](silver-river-rock.jpg)![Yellow Cream](yellow-cream.jpg)
-
-The question to build the perfect notebook.
+The quest to build the perfect notebook.
 
 It's an actual product that I built, and it's something that I use every day.
 I iterated upon it until I had something I was really happy with, but never
@@ -74,4 +61,49 @@ right now, and I think I might like to have that feature back in my life.
 So, there's the story. I'd like to perhaps revise this, add pictures, etc, and I
 can do that. But for now, there you are.
 
-![Draw a Card!](spokebooks-cardd.jpg)
+##Construction
+
+{{<gallery>}}
+<img src="spokebooks-hole-punch.jpg" class="grid-w50 md:grid-w33" />
+<img src="covers-and-stacked-pages.jpg" class="grid-w50 md:grid-w33" />
+<img src="set_of_six_notebooks.jpg" class="grid-w50 md:grid-w33" />
+<img src="six_notebooks_side_view.jpg" class="grid-w50 md:grid-w33" />
+{{</gallery>}}
+
+
+## Finished Products
+{{<gallery>}}
+<img src="do-not-panic.jpg" class="grid-w50 md:grid-w33" />
+<img src="black-limestone.jpg" class="grid-w50 md:grid-w33" />
+<img src="blue-blue.jpg" class="grid-w50 md:grid-w33" />
+<img src="blue-cream.jpg" class="grid-w50 md:grid-w33" />
+<img src="burgundy-cream.jpg" class="grid-w50 md:grid-w33" />
+<img src="burgundy-mist.jpg" class="grid-w50 md:grid-w33" />
+<img src="colonial-blue.jpg" class="grid-w50 md:grid-w33" />
+<img src="dontpanic.jpg" class="grid-w50 md:grid-w33" />
+{{</gallery>}}
+
+![Don't Paniccccccc](dontpanicccc.jpg)
+
+{{<gallery>}}
+<img src="green-green.jpg" class="grid-w50 md:grid-w33" />
+<img src="green-hue.jpg" class="grid-w50 md:grid-w33" />
+<img src="green-limestone.jpg" class="grid-w50 md:grid-w33" />
+<img src="green-tan.jpg" class="grid-w50 md:grid-w33" />
+<img src="grey-orange.jpg" class="grid-w50 md:grid-w33" />
+<img src="grey-white.jpg" class="grid-w50 md:grid-w33" />
+
+{{</gallery>}}
+
+{{<gallery>}}
+<img src="original-evolved-sketchy-guy.png" class="grid-w50 md:grid-w33"/>
+<img src="original-shopify.png" class="grid-w50 md:grid-w33"/>
+<img src="original-shopify-2.png" class="grid-w50 md:grid-w33"/>
+<img src="pink-cream.jpg" class="grid-w50 md:grid-w33" />
+<img src="purple-limestone.jpg" class="grid-w50 md:grid-w33" />
+<img src="silver-river-rock.jpg" class="grid-w50 md:grid-w33" />
+<img src="yellow-cream.jpg" class="grid-w50 md:grid-w33" />
+{{</gallery>}}
+
+
+
