@@ -2,8 +2,8 @@
 title: "Lit Glamour Alpha"
 slug: "lit-glamour-alpha"
 description: "An ambitious plan: scale up to a dozen units within 6 months. Call it stupid, or brave; either way, assumptions were validated."
-summary: "An ambitious plan: scale up to a dozen units within 6 months. Call it stupid, or brave; either way, assumptions were validated."
-date: "2023-06-26"
+summary: "An ambitious plan: Design, Develop and Scale a product from 0 to a dozen units within 6 months... Typical startup energy. I didn't achieve my goal, however I figured out what I really wanted to make, and set the stage for everything to come. This is the story of the first six months."
+date: "2023-01-01"
 image: panel.png
 lastmod: "2024-10-22"
 
