@@ -5,6 +5,8 @@ description: "A Hat is Fine Too."
 summary: "The latest prototype, featuring an OLED display, Rotary Encoder UI, 3000mAh battery, 140° optics, using the ESP32-S3 MPU, and WLED to create a live, interactive lightshow on the top of my head. And, it's light enough to wear comfortably, weighing in at a  modest 340g."
 domains: ["Web", "Mobile", "Electrical", "QA"]
 lastmod: "2024-10-29"
+tags:
+    - "Lit"
 ---
 ## Hat
 I made this hat in the couple of weeks leading up to Shambhala this year. I worked on it for a couple of hours 

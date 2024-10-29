@@ -5,6 +5,8 @@ summary: "Picking up where I left off in Lit Glamour Alpha, I proceeded to finis
 date: "2023-08-18"
 lastmod: "2024-10-29"
 showDateUpdated: true
+tags:
+    - "Lit"
 ---
 
 ## Pictures

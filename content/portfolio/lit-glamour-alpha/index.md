@@ -6,6 +6,8 @@ summary: "An ambitious plan: Design, Develop and Scale a product from 0 to a doz
 date: "2023-01-01"
 image: panel.png
 lastmod: "2024-10-29"
+tags:
+    - "Lit"
 
 ---
 This project started, in its current iteration, on New Years Eve, 2022. In fact, it began 3 years earlier, in 

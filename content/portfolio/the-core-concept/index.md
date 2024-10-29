@@ -3,6 +3,8 @@ title: "The Core Concept"
 summary: "A retrospective look at what I sought to achieve with this project - the ability to have an entire outfit sychronized to the sounds of music, together in harmony. I actually achieved my proof of concept, and I did so by combining two fixed controller installations with the Alpha prototype. Together, I proved that what I want can, in fact, be achieved. This is The Core Concept."
 date: "2023-12-05"
 lastmod: "2024-10-29"
+tags:
+    - "Lit"
 ---
 ## Foreword
 
