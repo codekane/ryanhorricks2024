@@ -5,12 +5,19 @@ description: "An ambitious plan: scale up to a dozen units within 6 months. Call
 summary: "An ambitious plan: Design, Develop and Scale a product from 0 to a dozen units within 6 months... Typical startup energy. I didn't achieve my goal, however I figured out what I really wanted to make, and set the stage for everything to come. This is the story of the first six months."
 date: "2023-01-01"
 image: panel.png
-lastmod: "2024-10-28"
+lastmod: "2024-10-29"
 
 ---
 This project started, in its current iteration, on New Years Eve, 2022. In fact, it began 3 years earlier, in 
 2019, when I made my first hat and found EVERYONE loved it.
 
+{{<gallery>}}
+<img src="Original_Redux.jpg" class="grid-w50" />
+<img src="Shambhala_2022_Hat_1.jpg" class="grid-w50" />
+<img src="Shambhala_2022_Hat_2.jpg" class="grid-w50" />
+<img src="Shambhala_2022_Hat_3.jpg" class="grid-w50" />
+
+{{</gallery>}}
 
 {{< youtube Zr0bHCgStcE >}}
 
