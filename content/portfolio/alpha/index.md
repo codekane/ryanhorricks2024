@@ -3,9 +3,23 @@ title: "Alpha"
 slug: "alpha"
 summary: "Picking up where I left off in Lit Glamour Alpha, I proceeded to finish construction of the Alpha. Built using the ESP32-S3, It includes a microphone, enabling captivating sound-reactive visuals. Featuring a 5000mAh battery, it is in fact too heavy to comfortably wear for long periods (and yet I convinced someone to do it anyways)."
 date: "2023-08-18"
-lastmod: "2024-10-26"
+lastmod: "2024-10-29"
 showDateUpdated: true
 ---
+
+## Pictures
+
+{{<gallery>}}
+<img src="Hat_Plus_Ensemble.jpg" class="grid-w50 md:grid-w33" />
+<img src="Purple_Hat_Plus_Ensemble.jpg" class="grid-w50 md:grid-w33" />
+<img src="Red_Hat_Plus_Ensemble.jpg" class="grid-w50 md:grid-w33" />
+<img src="Sorting_Hat_Plus_Ensemble.jpg" class="grid-w50 md:grid-w33" />
+<img src="Dramatic_Hat_Plus_Ensemble.jpg" class="grid-w50 md:grid-w33" />
+<img src="Dramatic_Purple_Hat.jpg" class="grid-w50 md:grid-w33" />
+<img src="Illuminated_Hat_In_Profile.jpg" class="grid-w50 md:grid-w33" />
+<img src="Out_Of_Focus_Hat_Plus_Heart.jpg" class="grid-w50 md:grid-w33" />
+
+{{</gallery>}}
 
 ## Videos
 
@@ -44,14 +58,27 @@ This is obviously the best video, and the one that should be included on the pag
 
 {{<youtube SNoeR45pvLM  >}}
 
-## Updated Power Circuit
 
+## Updated Power Supply
 {{<gallery>}}
-<img src="New_Power_Circuit_Front.JPG" class="grid-w50" />
-<img src="New_Power_Circuit_Back.JPG" class="grid-w50" />
+<img src="Updated_Power_Supply_1.jpg" class="grid-w50" />
+<img src="Updated_Power_Supply_2.jpg" class="grid-w50" />
 {{</gallery>}}
+
 
 ## Construction
 {{<gallery>}}
-<img src="Lights_Mounted_With_Epoxy.jpg" class="grid-w50" />
+<img src="Epoxy_Embedded_PCB_1.jpg" class="grid-w50 md:grid-w33" />
+<img src="Epoxy_Embedded_PCB_2.jpg" class="grid-w50 md:grid-w33" />
+<img src="Epoxy_Embedded_PCB_3.jpg" class="grid-w50 md:grid-w33" />
+<img src="Lights_Mounted_With_Epoxy.jpg" class="grid-w50 md:grid-w33" />
+{{</gallery>}}
+
+## Live Demo
+
+{{<gallery>}}
+<img src="Live_Demo_S3_Mini_1.jpg" class="grid-s50" />
+<img src="Live_Demo_S3_Mini_2.jpg" class="grid-s50" />
+<img src="Live_Demo_S3_Mini_3.jpg" class="grid-s50" />
+<img src="Live_Demo_S3_Mini_4.jpg" class="grid-s50" />
 {{</gallery>}}
