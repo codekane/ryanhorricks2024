@@ -4,7 +4,7 @@ date: 2024-07-27
 description: "A Hat is Fine Too."
 summary: "The latest prototype, featuring an OLED display, Rotary Encoder UI, 3000mAh battery, 140° optics, using the ESP32-S3 MPU, and WLED to create a live, interactive lightshow on the top of my head. And, it's light enough to wear comfortably, weighing in at a  modest 340g."
 domains: ["Web", "Mobile", "Electrical", "QA"]
-lastmod: "2024-10-17"
+lastmod: "2024-10-29"
 ---
 ## Hat
 I made this hat in the couple of weeks leading up to Shambhala this year. I worked on it for a couple of hours 
@@ -35,6 +35,22 @@ Highly Annoying.
 <img src="Hat - Off 2.jpg" class="grid-w50 md:grid-w33"/>
 
 
+{{</gallery>}}
+
+## Construction
+
+{{<gallery>}}
+
+<img src="Hat_Empty_Holes.jpg" class="grid-w50 md:grid-w33" />
+<img src="Hat_PCB_Fitting_1.jpg" class="grid-w50 md:grid-w33" />
+<img src="Hat_PCB_Fitting_2.jpg" class="grid-w50 md:grid-w33" />
+<img src="Hat_PCB_Wiring_1.jpg" class="grid-w50 md:grid-w33" />
+<img src="Hat_PCB_Wiring_2.jpg" class="grid-w50 md:grid-w33" />
+<img src="Hat_PCB_Wiring_3.jpg" class="grid-w50 md:grid-w33" />
+<img src="Epoxy_Shield_1.jpg" class="grid-w50 md:grid-w33" />
+<img src="Epoxy_Shield_2.jpg" class="grid-w50 md:grid-w33" />
+<img src="Hat_Epoxy_Shielded.jpg" class="grid-w50 md:grid-w33" />
+<img src="Hat_Lenses_Mounted.jpg" class="grid-w50 md:grid-w33" />
 {{</gallery>}}
 
 ## Case
@@ -89,7 +105,14 @@ The entire system is powered by a 3000mAh Li-Po battery, augmented with the addi
 alongside the TP4056 charger. This was necessary to avoid the deleterious effects on battery capacity when constantly 
 draining/charging the battery when plugged in.
 
+### Circuit
+{{<gallery>}}
+<img src="Power_Supply_1.jpg" class="grid-w50" />
+<img src="Power_Supply_2.jpg" class="grid-w50" />
 
+{{</gallery>}}
+
+### Battery Pack
 {{<gallery>}}
 <img src="Power_1.jpg" class="grid-w50"/>
 <img src="Power_2.jpg" class="grid-w50"/>
