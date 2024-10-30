@@ -70,34 +70,6 @@ I've done that, then: thanks for looking!
 <img src="Slide_Potentiometer.jpg" class="grid-w50 md:grid-w33" />
 {{</gallery>}}
 
-## Prototype ESP32-S3
-
-### Breadboarding
-{{<gallery>}}
-<img src="ESP32_S3_Breadboarding.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP32_S3_Breadboarding_2.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP32_S3_Breadboarding_3.jpg" class="grid-w50 md:grid-w33" />
-
-{{</gallery>}}
-
-### Protoboard
-
-{{<gallery>}}
-<img src="ESP32_S3_Protoboard_Ports_Mockup.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP32_S3_Protoboard_Ports_Mockup_2.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP32_S3_Protoboard_Ports_Mockup_3.jpg" class="grid-w50 md:grid-w33" />
-
-{{</gallery>}}
-
-
-
-### Setup
-
-{{<gallery>}}
-<img src="ESP32_S3_Case_OLED_Mockup.jpg" class="grid-w50" />
-
-{{</gallery>}}
-
 
 ## Alpha PowerPack Upgrade
 I'm not sure which this one was for. It might have actually gone into the Alpha (because I upgraded it after 
