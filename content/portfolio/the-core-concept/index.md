@@ -70,48 +70,6 @@ I've done that, then: thanks for looking!
 <img src="Slide_Potentiometer.jpg" class="grid-w50 md:grid-w33" />
 {{</gallery>}}
 
-## Prototype ESP8266
-
-### Breadboarding
-{{<gallery>}}
-<img src="ESP8266_Breadboard_Circuit.jpg" class="grid-w50" />
-{{</gallery>}}
-
-### Power Supply
-
-{{<gallery>}}
-<img src="Split_Rail_Power_Supply_Front.jpg" class="grid-w50" />
-<img src="Split_Rail_Power_Supply_Back.jpg" class="grid-w50" />
-{{</gallery>}}
-
-#### Noise
-{{<youtube LyBV-9yD8q4 >}}
-
-
-### Mainboard
-{{<gallery>}}
-<img src="ESP8266_Analog_Controller.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP8266_Analog_Controller_2.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP8266_Split_Rail_Installed_In_Case.jpg" class="grid-w50 md:grid-w33" />
-{{</gallery>}}
-
-### Installation
-{{<gallery>}}
-<img src="ESP8266_Split_Rail_Case.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP8266_Split_Rail_Demo.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP8266_Case_With_Cables.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP8266_Case_With_Cables_Side.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP8266_Case_With_Cables_Back.jpg" class="grid-w50 md:grid-w33" />
-
-
-{{</gallery>}}
-
-{{<youtube TOupNLcAgPE >}}
-
-
-
-
-
 ## Prototype ESP32-S2
 
 {{<gallery>}}
