@@ -1,7 +1,7 @@
 ---
 title: "ESP8266 Split Rail LED Controller"
-summary: "Looking to experiment, I created another controller for a fixed installation using some parts I had lying around. It drives a single string of 5V addressable LED's, as well as a strip of analog 12V LED's, both being powered from either 5V USB pass-through, or a single Lithium Polymer Battery. What's more, using experimental firmware, I was able to have it sync to the audio reactive data from my other devices."
-date: "2023-10-31"
+summary: "Looking to experiment, I created another controller for a fixed installation using some parts I had lying around. It drives a single string of 5V addressable LED's, as well as a strip of analog 12V LED's, both being powered from either 5V USB pass-through, or a single Lithium Polymer Battery. What's more, using experimental firmware, I was able to have it sync to the audio reactive data from my other devices (without needing to do the processing itself)."
+date: "2023-11-01"
 lastmod: "2024-10-30"
 tags:
     - "Lit"
