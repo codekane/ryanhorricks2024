@@ -70,44 +70,6 @@ I've done that, then: thanks for looking!
 <img src="Slide_Potentiometer.jpg" class="grid-w50 md:grid-w33" />
 {{</gallery>}}
 
-## Prototype ESP32-S2
-
-{{<gallery>}}
-<img src="Lolin_S2_Mini.jpg" class="grid-w50 md:grid-w33" />
-{{</gallery>}}
-
-### Breadboarding
-{{<gallery>}}
-<img src="ESP32_S2_Breadboarding.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP32_S2_Interface_Breadboard.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP32_S2_Breadboard_Side_View.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP32_S2_Breadboard_45_Degree_Angle.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP32_S2_Breadboard_40_Degree_Angle.jpg" class="grid-w50 md:grid-w33" />
-{{</gallery>}}
-
-### Assembly
-
-{{<gallery>}}
-<img src="S2_Mini_Protoboard.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP32_S2_Case_With_Rotary_Encoder.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP32_S2_Installed_In_Case.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP32_S2_Installed_In_Case_Back_View.jpg" class="grid-w50 md:grid-w33" />
-<img src="ESP32_S2_Installed_In_Case_Top_View_Microphone.jpg" class="grid-w50 md:grid-w33" />
-{{</gallery>}}
-
-### Power Pack
-{{<gallery>}}
-<img src="ESP32_S2_5000mAh_Power_Pack.jpg" class="grid-w50" />
-{{</gallery>}}
-
-### Installation
-{{<gallery>}}
-<img src="ESP32_S2_Wall_Mount_Close_Up.jpg" class="grid-w50" />
-<img src="ESP32_S2_Mounted_On_Wall.jpg" class="grid-w50" />
-{{</gallery>}}
-
-{{< youtube Rt7yyTXw4A8 >}}
-
 ## Prototype ESP32-S3
 
 ### Breadboarding
