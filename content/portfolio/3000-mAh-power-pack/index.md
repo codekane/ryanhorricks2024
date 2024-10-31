@@ -2,7 +2,7 @@
 title: "3000 mAh Power Pack"
 date: 2024-06-06
 summary: "A much smaller, lighter source of power than my previous devives. It uses a TP4056 module for charging, together with a couple of mosfets, and a zener diode to enable USB-Passthrough. This has proven safe, yet without voltage regulation I've encountered instabilities (and data corruption), so this is as much about what's been done well, as what must be done better."
-lastmod: "2024-10-31"
+lastmod: "2024-11-01"
 tags:
     - "Lit"
 ---
