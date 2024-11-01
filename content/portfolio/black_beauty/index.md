@@ -2,7 +2,7 @@
 title: "Black Beauty"
 date: 2024-07-27
 description: "A Hat is Fine Too."
-summary: "The latest prototype, featuring an OLED display, Rotary Encoder UI, 3000mAh battery, 140° optics, using the ESP32-S3 MPU, and WLED to create a live, interactive lightshow on the top of my head. And, it's light enough to wear comfortably, weighing in at a  modest 340g."
+summary: "The next-generation of hats, featuring an updated controller, power pack, and a refined method of construcion. It comes with it's fair share of bugs, however the hardware itself is sound, and light enough to comfortably wear for long periods."
 domains: ["Web", "Mobile", "Electrical", "QA"]
 lastmod: "2024-11-01"
 tags:

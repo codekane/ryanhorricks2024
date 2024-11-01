@@ -1,7 +1,7 @@
 ---
 title: "ESP32-S3 OLED LED Controller"
 summary: "This is the third in this series of controllers. Built on the Lolin S3 Mini, it packs enough processing power to handle sound-reactivity without compromising the UI. I incorporated an OLED Display, and a Rotary Encoder, making this the first device not entirely dependant upon network connectivity for use. Overall, a very solid unit."
-date: "2024-02-25"
+date: "2023-12-05"
 lastmod: "2024-10-31"
 tags:
     - "Lit"
