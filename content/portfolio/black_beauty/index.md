@@ -56,7 +56,7 @@ I used dollar-store epoxy to secure both lens to PCB, and PCB to hat. I took car
 not only marred the structure of the hat visually, but also resulted in an extra ~50g of weight due to re-application of the epoxy. 
 This was applied to the top, first, after which the hat was turned, and the process was repeated on the bottom.
 
-I didn't use lenses on tbe bottom, as the diffusion provideed by the epoxy itself is likely sufficient for my needs.
+I didn't use lenses on tbe bottom, as the diffusion provided by the epoxy itself is likely sufficient for my needs.
 
 
 
