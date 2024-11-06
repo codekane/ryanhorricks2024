@@ -3,9 +3,27 @@ title: "The Core Concept"
 summary: "A retrospective look at what I sought to achieve with this project - the ability to have an entire outfit sychronized to the sounds of music, together in harmony. I actually achieved my proof of concept, and I did so by combining two fixed controller installations with the Alpha prototype. Together, I proved that what I want can, in fact, be achieved. This is The Core Concept."
 date: "2023-12-05"
 lastmod: "2024-10-29"
+draft: true
 tags:
     - "Lit"
 ---
+## Why
+I started this project on the first day of 2023 (or rather, New Years Eve, 2022). 
+
+The inspiration was born of something I'd made years earlier, in 2019, out of a hat I found in the Lost & Found at [Sasquatch Gathering](https://www.facebook.com/SasquatchGathering/), combined with a string of lights that I now 
+know came out of the dollar store. At that festival, those lights had come in clutch. I was working as a volunteer, and their was a storm on the Saturday night of my shift... It was bad. Tents were upturned, people ran away, and 
+the relief shift never showed. It wound up being that those very lights were the only source of light for those of us in the volunteer shack...
+
+And then I had to leave. I had my own friends to mind, 
+
+That's an incident that ate at it. It gnawed at me. I wanted to find fault -- anyone to take the blame, accept responsibility, or perhaps to simply do something; take action, and make the world a better place - a place where 
+there is enough light, to keep away the darkness (and the scary things you'll find there).
+
+I came back from that festival, and I was deeply bothered, and it was out of that bother that I found my Art. 
+
+
+
+
 ## Foreword
 
 This is a bunch of words so that I can get the formatting to work properly. I'm laying down all of the audio/video 
