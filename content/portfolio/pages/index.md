@@ -15,7 +15,6 @@ tags:
     - "Front-End"
     - "Notebooks"
 
-weight: 1
 ---
 
 ![Pages](pages.png)![Options](options.png)![Types](types.png)

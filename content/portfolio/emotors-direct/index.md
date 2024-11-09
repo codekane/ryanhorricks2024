@@ -28,7 +28,6 @@ tags:
     - Mobile
     - IoT
 
-weight: 1
 ---
 ## Mobile
 ### Android

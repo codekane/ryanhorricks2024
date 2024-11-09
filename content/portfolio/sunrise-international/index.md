@@ -18,7 +18,6 @@ tags:
     - "Front-End"
     - "Hospitality"
 
-weight: 1
 ---
 ![Home](home.png)
 ![Home - Amenities](home-amenities.png)

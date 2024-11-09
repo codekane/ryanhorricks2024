@@ -18,7 +18,6 @@ tags:
     - "CSS"
     - "Sinatra"
 
-weight: 1
 ---
 ![Splash](shortcut.png)
 

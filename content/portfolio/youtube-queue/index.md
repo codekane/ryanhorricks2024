@@ -15,6 +15,5 @@ tags:
     - "JavaScript"
     - "API"
 
-weight: 1
 ---
 [GitHub](https://github.com/codekane/Q)

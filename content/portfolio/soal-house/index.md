@@ -19,7 +19,6 @@ tags:
     - "JavaScript"
     - "AirBnB"
 
-weight: 1
 ---
 [Live URL](https://www.soalhouse.ca)
 [Github](https://github.com/codekane/soalhouse)

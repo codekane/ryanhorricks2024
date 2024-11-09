@@ -14,6 +14,5 @@ tags:
     - "Front-End"
     - "Portfolio"
 
-weight: 1
 ---
 ![Home](home.png)![Portfolio List](portfolio.png)![Portfolio Single](portfolio-single.png)![Comment](portfolio-single-comment.png)

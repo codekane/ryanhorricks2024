@@ -17,7 +17,6 @@ tags:
     - Angular
     - AWS
 
-weight: 1
 ---
 
 ![Live Usage](live-usage.png)

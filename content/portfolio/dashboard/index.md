@@ -17,7 +17,6 @@ tags:
     - "Product"
     - "Front-End"
 
-weight: 1
 ---
 ![Default](default.png)![Complete](complete.png)![Discard](discard.png)
 ![Edit](edit.png)![Edit View](edit-view.png)![Create](create.png)![Finish](finish.png)

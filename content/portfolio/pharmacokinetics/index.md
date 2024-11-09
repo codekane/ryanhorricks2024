@@ -21,7 +21,6 @@ tags:
     - "Angular"
     - "Electron"
 
-weight: 1
 ---
 
 ![Add Substance](add-substance.png) ![add-dosage-form](add-dosage-form.png)

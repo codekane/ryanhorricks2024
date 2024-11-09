@@ -14,6 +14,5 @@ categories:
 tags:
     - "JavaScript"
 
-weight: 1
 ---
 [GitHub](https://github.com/codekane/kageshi)

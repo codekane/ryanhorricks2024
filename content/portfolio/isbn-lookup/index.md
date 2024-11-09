@@ -18,7 +18,6 @@ tags:
     - "JavaScript"
     - "React"
 
-weight: 1
 ---
 
 ![Mystery](mystery.png)![Found](found.png)

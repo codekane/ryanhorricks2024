@@ -13,7 +13,6 @@ categories:
     - "CSS"
     - "JavaScript"
 
-weight: 1
 ---
 [Live Site](https://fancy55.netlify.app/)
 [GitHub](https://github.com/codekane/Fancy55)

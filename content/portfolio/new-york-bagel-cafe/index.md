@@ -17,7 +17,6 @@ tags:
     - "CSS"
     - "SVG"
 
-weight: 1
 ---
 
 ![Breakfast!](breakfast.png)

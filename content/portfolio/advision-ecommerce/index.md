@@ -4,7 +4,6 @@ slug: "advision-ecommerce"
 summary: "Works completed while working a Freelance Front-End Developer position. This used the Lightspeed POS Platform, however if I had to describe the skills primarily used, it'd be plain-old HTML, CSS, JS, jQuery."
 date: "2022-08-22"
 image: main.png
-weight: 1
 lastmod: "2024-10-29"
 ---
 This is a gallery of the various sites that I worked on during my short time 

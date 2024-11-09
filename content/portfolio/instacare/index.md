@@ -21,7 +21,6 @@ tags:
     - "Front-End"
     - "SAAS"
 
-weight: 1
 ---
 ![Home](home.png)
 ![Solutions](solutions.png)

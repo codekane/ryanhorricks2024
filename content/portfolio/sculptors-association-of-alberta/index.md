@@ -19,7 +19,6 @@ tags:
     - "HTML"
     - "PHP"
 
-weight: 1
 ---
 ![Logo](saaLogo200.png)
 

@@ -20,7 +20,6 @@ tags:
     - Vinyl
     - Paper
 
-weight: 1
 ---
 ![BEAUTIFUL](BEAUTIFUL.jpg)
 
