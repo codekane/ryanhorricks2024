@@ -5,7 +5,7 @@ summary: "Motiometer - IoT Sensor Project. Work etailed implementing Push Notifi
 slug: "emotors-direct"
 date: "2023-09-13 00:00:00-0700"
 image: main.png
-lastmod: "2024-11-19"
+lastmod: "2024-11-20"
 ---
 ## Foreword
 I joined eMotors in May of 2023, after applying for an Intermediate-Senior Front-End Developer position. This 
@@ -108,6 +108,60 @@ on a new phone, with which to test this niche feature during my first week on th
 possible to implement more fully.
 
 ## Upper Bound
+Initially, the plan as that I come into the office, and slowly work up to the prospect of being remote. Luckily, 
+my 2nd week of employment was the Upper Bound conference, and I had a ticket. Not only that, but Andrey, and 
+another developer, Leo, were both going. I sensed that my presence there wasn't exactly planned - that this 
+was something awarded as a result of priviledge, and seniority, however I clearly managed to jump the shark.
+
+This was my first foray into AI, and I took a lot of notes. I attended a lot of talks. I made a lot of connections, 
+and I learned a great deal about what, exactly, AI is, how it's done, and what you can get out of it.
+
+There were two main directions that I saw it going - academic, and practical. On the academic side, you had 
+well-funded teams of students, professors, alongside sponsoring companies who measured their progress based upon 
+how effective their model was at playing video games. This is a useful model - it's something a person can 
+do, get better at, and play competitively. What I saw was that, at least in the exceptional cases, that these 
+models were in fact capable of becoming very, very good at what they were tasked with; even beating humans.
+
+On the practical side, I saw businesses who, after investing substantial quantities of money, and man-power, 
+were able to leverage the technologies for practical applications. Given that this was a venture eMotors 
+themselves were intending to leverage, I found this to be the more interesting avenue.
+
+### Team Building
+We took a break from the conference for half a day, and met up at the office for pizza. Pizza gets a bad rap, 
+when it comes to the workplace - I see memes about pizza parties being provided in lieu of adequate compensation, 
+or any fungible (monetary) reward. I'll beg to differ here - it was genuinely a pleasure to spend time with 
+the rest of the company, get to know them, and to get fed in the process. We had pizza, and wings, and soft 
+drinks, and we got to know each other on a level we otherwise wouldn't, on account of the disparate nature 
+of our departments.
+
+This is pertinent because, though eMotors Direct was something of a startup, it was grafted on top of the 
+existing business - Universal Rewind. The company was founded by Chris Beaton, some 20 years before I 
+ever got to become a part of it, and it had continued to grow from there. The original order of the business 
+pertained to electric motor repairs, which, if you know anything about motors, can entail rewinding them 
+with copper (hence the name). From that business was borne eMotors Direct, the premise of which was to serve 
+the primary market, arranging for sales of the motors from their suppliers, and making sales, which would 
+then ultimately serve to feed back into the core business of reparing those very motors.
+
+What I did was in fact somewhat isolated from these core businesses - I worked on the tech side, which was 
+utterly dwarfed by the number of people working in sales, and what's more, i was working on a new product, 
+still in development, and so the number of people I had to speak with, on a day to day basis was but a 
+handful.
+
+After pizza, we went to Activate, and we had fun. We split up into teams, were given fobs, and spent the next 
+couple of hours working together to accomplish a variety of meaningless, enjoyable feats. Sometimes we tossed 
+balls, sometimes we climbed rocks accross a chasm. The most fun that I remember having was akin to playing 
+"The Floor is made of Lava" as a child, where we had to navigate through a series of levels, avoiding the 
+bad blocks, knocking out the good blocks, all while avoiding certain death, and respecting the time limit. 
+
+We went hard. I was on a team with Jill Wallace, and we kept going until we were all out of breath, trying, 
+and trying again, and doing our damnedest to beat every level they threw at us. I won't pretend that we 
+succeeded, however this game was our very last of the day, and on some level, we all knew that, and enjoyed 
+it to it's very fullest.
+
+These are memories I hold fondly.
+### The Party
+
+## Authentication (Mobile)
 
 ## Push Notifications
 
