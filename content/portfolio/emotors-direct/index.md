@@ -5,7 +5,7 @@ summary: "Motiometer - IoT Sensor Project. Work etailed implementing Push Notifi
 slug: "emotors-direct"
 date: "2023-09-13 00:00:00-0700"
 image: main.png
-lastmod: "2024-11-20"
+lastmod: "2024-11-21"
 ---
 ## Foreword
 I joined eMotors in May of 2023, after applying for an Intermediate-Senior Front-End Developer position. This 
@@ -81,7 +81,7 @@ that the answer was yes. By failing to ask for it, I allowed a maelstrom to brew
 condition which would ultimately lead me to get nothing that I wanted. This has been a recurring theme.
 
 
-## React Camera Switcher
+## Camera Switcher
 The first week of the job, I was assigned to add a feature to the React front-end. The way that it initially 
 worked was to use the rear-facing camera to scan for a QR Code, which was then used for device provisioning.
 
@@ -106,6 +106,89 @@ entirely satisfactory manner. I do recall the desired functionality being techni
 largely limitations borne of hardware that kept it from being implemented. Had I dropped several hundred dollars 
 on a new phone, with which to test this niche feature during my first week on the job, it might have been 
 possible to implement more fully.
+
+### Code Samples
+
+#### React
+```javascript
+import CameraSwitchIcon from '@mui/icons-material/Cameraswitch'
+
+
+useEffect(() => {
+     const getFacingMode = async () => {
+        const devices = await navigator.mediaDevices.enumerateDevices()
+        let deviceIds: String[] = new Array()
+
+        devices.forEach((device) => {
+            if (device.kind === 'videoinput') {
+                deviceIds.push(device.deviceId)
+            }
+        })
+        if (deviceIdList.length === 0) {
+            setDeviceIdList(deviceIds)
+        }
+
+        if (deviceIds.length === 1) {
+            setFacingMode('user')
+        } else {
+            setFacingMode('environment')
+        }
+    }
+}
+
+const switchFacingMode = async () => {
+  if (deviceIdList.length <= 1) {
+    return
+  }
+  if (facingMode == 'user') {
+    setFacingMode('environment')
+  } else if (facingMode == 'environment') {
+    setFacingMode('user')
+  }
+
+
+
+<>
+  <div className='qr-reader-bottom-options p-4'>
+    {/* Switch Front/Back Camera */}
+    <div>
+      <button
+        type='button'
+        onClick={() => {
+          switchFacingMode()
+        }}
+      >
+        <span className='sr-only'>Switch Camera</span>
+        <CameraSwitchIcon/>
+      </button>
+    </div>
+  </div>
+</>
+}
+```
+
+#### SASS
+```sass
+.qr-reader-bottom-options {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  //align-items: end;
+  justify-content: end;
+  display: flex;
+
+  button,
+  button:focus {
+    position: relative;
+    color: #fff;
+    svg {
+      font-size: 2rem;
+    }
+  }
+}
+```
 
 ## Upper Bound
 Initially, the plan as that I come into the office, and slowly work up to the prospect of being remote. Luckily, 
@@ -160,8 +243,78 @@ it to it's very fullest.
 
 These are memories I hold fondly.
 ### The Party
+I didn't actually wind up seeing Andrey and Leo for most of the conference - I was late in my application 
+for the talent bursary, and by the time I went to book my sessions, the main sessions for several of the 
+talks were already full, leading me to join the televised "side-session". We ran into each other at a few 
+different moments, however I found our footprints to be quite distinct. They went together, as representatives 
+of the company, while I walked alone, attending what I most saw fit, and interacting with a great many more.
 
-## Authentication (Mobile)
+Perhaps the choisest of the interactions came about during the party. If you've ever attended a conference 
+before, you'll know they throw sick parties, and Upper Bound was no different. I didn't run into my 
+co-workers there - Andrey had a family, and Leo had a girlfriend (wife???). I am... untroubled by these 
+considerations, and even if I was, I'm still not one to say no to a party.
+
+The venue was sick. They provided a free drink, to which I imbibed, and I enjoyed the wonderful opportunity 
+that is talking to the next generation of developers; the students, still deciding on what it is they're 
+looking to do with their lives, and careers. I shared accumulated wisdom, concerning the difference between 
+going corporate versus a startup, and talked about my own venture. The choicest question I remember being 
+asked was hwo I managed to balance working a full-time job, alongside working on my own project/company.
+
+I'm not sure that I really did. There were many days where I got 4 hours of sleep, having worked for 8 hours 
+working my job, hitting every networking event that existed, and then working to realize my own vision, on 
+top of it all. There's a reason I was at the party, but none of my co-workers were... they had someone to 
+go home to.
+
+#### Kobold Completions
+One of the [talks](https://www.youtube.com/watch?v=Ilza3KuRHKg) that I attended, concerning the practical applications of AI was given by David Cooper, of 
+Kobold Completions. I just so happened to run into him at the party, playing a game of Pong. I introduced 
+myself, and upon finding out who he was, told him how great it was to hear from someone who'd practically 
+applied AI to solve an actual business case. We talked for a while, and he expressed an openness to connect 
+further, having expressed that the company I worked for was likewise interested in the applications of 
+machine learning/AI.
+
+Why does this stick out? Because sometimes the best way to get to know someone isn't in the office. Sometimes 
+the best way to connect is when everyone's had a couple drinks, inhibitions are lowered, and mingling comes 
+more freely. A lot of people in tech are not so inclined - they might not feel themselves suited to speak 
+with customers, nevermind the speakers at a conference. I do not suffer this problem, being something of a 
+brave butterfly in the circles I run in.
+
+## Authentication
+With the fun & games out of the way, it was time to get to work. The system we used was Scrum, and the task I 
+was given was to implement Push Notifications.
+
+The problem with that is that, upon investigation of the Android app, I realized that it actually made no 
+efforts to authenticate users. A bulk of the functionality was made available in the form of a WebView, 
+and it was possible to log in there, however this wasn't actually integrated into the functionality of the 
+app itself, but rather served to re-use the existing functionality of the React front-end for the main site.
+
+So, to me, the logical next step was to implement Authentication within the Android App itself. I gave an 
+initial quote of 2 weeks, based upon my prior experience committing to unreasonable deadlines, while working 
+in a new framework. It turned out that, while that estimate may have been reasonable when working on a 
+Python/Django/Angular WebApp, it was much less accurate when working in Java on an Android app.
+
+### Android
+The initial, and in fact the only required feature set was to be able to log in to the application. The 
+back-end was already making use of JWT authentication token, for communication with the back-end, and I was 
+able to re-use the bulk of this logic to authenticate the mobile app using the same mechanisms.
+
+{{<gallery>}}
+  <img src="eMotors_Splash.png" class="grid-w50 md:grid-w33"/>
+  <img src="eMotors_Welcome_Back.png" class="grid-w50 md:grid-w33"/>
+  <img src="eMotors_Forgot_Password.png" class="grid-w50 md:grid-w33"/>
+{{</gallery>}}
+
+
+## Registration
+Once the initial logic was done to enable authentication, I 
+
+{{<gallery>}}
+  <img src="Create_Account_Company_Details.png" class="grid-w50" />
+  <img src="Create_Account_Details.png" class="grid-w50" />
+  <img src="Complete_Account_Creation.png" class="grid-w50" />
+  <img src="Verify_Email.png" class="grid-w50" />
+{{</gallery>}}
+
 
 ## Push Notifications
 
@@ -169,16 +322,9 @@ These are memories I hold fondly.
 
 #### Documentation
 
-### Android (Java) Mobile App
-{{<gallery>}}
-  <img src="eMotors_Splash.png" class="grid-w50 md:grid-w33"/>
-  <img src="eMotors_Welcome_Back.png" class="grid-w50 md:grid-w33"/>
-  <img src="eMotors_Forgot_Password.png" class="grid-w50 md:grid-w33"/>
-  <img src="Create_Account_Company_Details.png" class="grid-w50 md:grid-w33" />
-  <img src="Create_Account_Details.png" class="grid-w50 md:grid-w33" />
-  <img src="Complete_Account_Creation.png" class="grid-w50 md:grid-w33" />
-  <img src="Verify_Email.png" class="grid-w50 md:grid-w33" />
-{{</gallery>}}
+#### Automation
+
+#### Testing
 
 #### Documentation
 
