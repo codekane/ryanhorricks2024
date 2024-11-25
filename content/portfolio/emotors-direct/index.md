@@ -279,34 +279,72 @@ more freely. A lot of people in tech are not so inclined - they might not feel t
 with customers, nevermind the speakers at a conference. I do not suffer this problem, being something of a 
 brave butterfly in the circles I run in.
 
-## Authentication
-With the fun & games out of the way, it was time to get to work. The system we used was Scrum, and the task I 
-was given was to implement Push Notifications.
+## Java (Android)
+The actual task at hand was the implementation of Push Notifications on Android. This was a single card on 
+the Scrum board, however given that there was no actual faculty to figure out which user was using the 
+application (and thus, who to send these notifications to) the obvious first step, to me, was to setup 
+Authentication.
 
-The problem with that is that, upon investigation of the Android app, I realized that it actually made no 
-efforts to authenticate users. A bulk of the functionality was made available in the form of a WebView, 
-and it was possible to log in there, however this wasn't actually integrated into the functionality of the 
-app itself, but rather served to re-use the existing functionality of the React front-end for the main site.
+### Authentication
+To do this, I used Hilt for Dependency Injection, RxJava3 to make use of Async functionalities (as opposed 
+to doing it with Kotlin coroutines), Retrofit and OkHTTP for handling API calls. Kotlin was installed, primarily 
+because I was getting errors withoutit, and then Lifecycle was set up to avoid memory leaks in the process.
 
-So, to me, the logical next step was to implement Authentication within the Android App itself. I gave an 
-initial quote of 2 weeks, based upon my prior experience committing to unreasonable deadlines, while working 
-in a new framework. It turned out that, while that estimate may have been reasonable when working on a 
-Python/Django/Angular WebApp, it was much less accurate when working in Java on an Android app.
+The simpler way to go about this would have been using Kotlin - however given that the application itself was 
+otherwise written in Java, and I was also new to Java, I decided against adding a new language to the mix, 
+and figure out how to implement everything using Java.
 
-### Android
-The initial, and in fact the only required feature set was to be able to log in to the application. The 
-back-end was already making use of JWT authentication token, for communication with the back-end, and I was 
-able to re-use the bulk of this logic to authenticate the mobile app using the same mechanisms.
+The pattern I used for implementing the feature can be found [here.](https://proandroiddev.com/jwt-authentication-and-refresh-token-in-android-with-retrofit-interceptor-authenticator-da021f7f7534\#27c4
+https://proandroiddev.com/jwt-authentication-and-refresh-token-in-android-with-retrofit-interceptor-authenticator-da021f7f7534\#27c4)
 
 {{<gallery>}}
-  <img src="eMotors_Splash.png" class="grid-w50 md:grid-w33"/>
-  <img src="eMotors_Welcome_Back.png" class="grid-w50 md:grid-w33"/>
+  <img src="eMotors_Splash.png" class="grid-w50"/>
+  <img src="eMotors_Welcome_Back.png" class="grid-w50"/>
+{{</gallery>}}
+
+### Architecture
+The tricky part about this is that, given I was new to Android/Java, the natural place that I'd look to find out 
+how it's actually done is to read the documentation. The documentation for Android listed a series of Best 
+Practices. None of these were actually implemented within the application, given it was based upon a project 
+released by EspressIf, and subsequently worked on by a bunch of Juniors (read: no consistent pattern to follow).
+
+To resolve this, I set about to implement the bulk of the best practices I was able to find. This included 
+MVVM, Single-Activity, Multiple Fragments, NavGraphs, and pretty much everything else I was able to find 
+out by reading the official Android documentation. This wasn't immediately done - over the span of three 
+months I ultimately wound up re-architecting the entire application, cleaning up the code, and laying down 
+solid patterns composed of officially recommended Best Practices.
+
+This was done incrementally. Initially I setup the Authentication feature to make use of its own Activity, 
+with several Fragments, and then passed it on to the main Activity, which handled the rest of the application. 
+To handle the shared data I created a Singleton ViewModel with Application scope, to ensure that authentication status 
+was capable of being passed between the different levels of the application.
+
+### Settings
+This feature already existed when I got here, however there were inconsistencies in the layout that nobody 
+really cared to have resolved, so I learned what I needed to get it there, and fixed what I found faulty.
+
+I also used this feature as a test-bed for what it would take to re-architect the rest of the application to 
+make use of the single-Activity, multiple Fragent pattern. This initially lead things to be somewhat disparate 
+- there was a Settings Activity, a Login Activity, and then a Main Activity, with everything else. Because 
+of the Singleton being used for Authentication, this wasn't actually a problem, and I implemented a NavGraph, 
+child Fragments inside of the Activity, annd a fuller use of the Preferences component.
+
+This didn't actually take long, and I left the feature in a much cleaner state than I found it.
+
+### Reset Password
+I added Fragments for a Reset Password feature, and added them to the Login NavGraph. This didn't take long, 
+in part because this was functionality already implemented on the back-end. At the same time, I improved the 
+layout for the Login page to follow the styling of the primary web-app.
+{{<gallery>}}
   <img src="eMotors_Forgot_Password.png" class="grid-w50 md:grid-w33"/>
 {{</gallery>}}
 
-
-## Registration
-Once the initial logic was done to enable authentication, I 
+### Registration
+Given that I'd implemented everything else to do with the Authentication flow, the logical next step for me was 
+to provide a faculty for Registration. I actually did most of the work here, nestling the functionality within 
+its own NavGraph, which meant that once the Registration flow was exited (either through a completed registration, 
+or through exit back to the login) all entered/stored data was rendered null. This was very convenient for UI 
+purposes.
 
 {{<gallery>}}
   <img src="Create_Account_Company_Details.png" class="grid-w50" />
@@ -315,25 +353,232 @@ Once the initial logic was done to enable authentication, I
   <img src="Verify_Email.png" class="grid-w50" />
 {{</gallery>}}
 
+It's also at this point that I realized I may have gone astray of the intention of the feature, as when 
+providing details of my progress during one of our standups, Andrey "subtly" indicated that this was something 
+he saw no value in, rather being fine with forcing our users to Register using the WebApp, and only then being 
+able to sign in to the Android app.
 
-## Push Notifications
+I nonetheless left it in, as substantial work was done on my part to enable clean handling of the provided 
+data. It was at this point that I'd roughly mastered making use of ViewModels, moving the data around, and 
+passing it to wherever it needed to go within the Application. Work remained to be done with regards to 
+actually Validating the provided information - had this work been valued, I could have continued onwards, 
+and done a great job, however given the provided direction, I decided instead to stow the work, and move on.
 
-###  PHP (Symfony) Back-End
+### Push Notifications
+It's at this stage that there was actual back-end work being required, and this work was largely done 
+simultaneously for the implementation of this feature.
 
-#### Documentation
+I modified the Login flow to contact the API Server, and hit the created Device Registration endpoint 
+on Login. This worked to register the device, however due to the initial way that the feature was 
+designed, it did not allow for the device to be unregistered (and thus the knowledge of notifications not 
+to be sent to be gleaned).
 
-#### Automation
+That required re-structuring the Authentication feature. In the process of doing this, I cleaned up all 
+of the other works-in-progress. I cleaned up the code for everything that I had written, making it easy 
+to follow, and I implemented a LoadingFragment to serve as a bridge between the Authentication flow, and 
+the rest of the Application (so as to enable we had a middle point that still had access to all of the data 
+we needed when logging out, to ensure that notifications wouldn't be sent to people who no longer wanted them).
 
-#### Testing
+##  PHP (Symfony)
+Up until now, the work that I'd been doing was relatively isolated. I was working on an Android app, and though 
+I did have some help, it was primarily with the UX by Marjorie, one of our new hires. I did my best to give 
+her what she needed to succeed (which was precisely what I wished someone would give me, when working 
+together).
 
-#### Documentation
+My experience on the back-end was something else. Initially it was fine, or at least it seemed fine, but 
+that was because I was working off of a branch that hadn't been updated since December (and it was late June 
+when I began work on this segment in earnest). It took a few weeks before I realized the discrepency, 
+however this was only the beginnings of the problems. Unlike work on the Android side, I was given the 
+opportunity to collaborate with Leo, another developer, on the back-end, and unlike my experience working 
+with Marjorie, we really didn't get along.
 
-#### Collaboration
+Not that I disliked him as a person. Rather, it's more that our relationship devolved into what I would 
+best describe as petty passive-aggressiveness. Communication was poor, slights became mutual, and various 
+cultural dysfunctions were revealed. 
 
-Scope of work included Push Notifications, which were successfully implemented. Given the Android app had no 
-faculties for Authentication, I did that too, and I even went a bit too far, and setup Registration.
+Could I have done better? Absolutely. What struck me most was the difference in my experience in collaborating 
+with Marjorie, versus Leo. I went out of my way to give Marjorie everything that she needed, and in the event 
+I failed to do so (and let her down), I was incredibly motivated to resolve this deficiency.
 
-Behind the scenes, I took a disparate, undocumented codebase worked on primarily by Juniors, and bestowed upon it 
-order, patterns, Best Practices, and, get this: Documentation. This was done using Java, implementing the MVVM pattern, with a single-activity, 
-many fragments, and JWT for Authentication.
+We are all, however, different people, and as I said, I found my experience in callaboration on the back-end 
+side of things quite different/difficult.
+
+### Annotations and Attributes
+One of my first orders of business was borne out of beauty - upon starting the back-end server, I saw a 
+plethora of warnings pertaining to annotations being depricated, and unsupported. I, meanwhile, looked 
+at the code, and saw the currently implemented annotations as being quite unsightly, in contrast the relatively 
+more "beautiful" attribute syntax.
+
+So, I set out to fix that. The logic was that, given we were presently operating on an unsupported version of 
+Doctrine/ApiPlatform, and that any supported version required making the switch from annotations to attributes, 
+that this was work that needed to be done eventually.
+
+Obvious, to me now, is that it's quite common for production applications to continue operating with this 
+plethora of warnings, and so long as it works, then the tendency is not to touch it.
+
+I decided to touch it, and I was very careful in so doing. I updated the version to one that supported both 
+annotations, and attributes, and then used Rector, in combination with a configuration I sourced from the 
+community to convert all of the annotations, throughout the application, into attributes. I then proceeded 
+to exhaustively test every listed API endpoint in ApiPlatform, and ensure that it still worked as expected 
+after the change.
+
+There weren't automated tests for this, so it took me a solid day, but in so doing, I did come to understand 
+the infrastructure quite well, and I confirmed that, as expected, I'd done a good job.
+
+The problem here was that, because I was working on an old version of the application, these changes were not 
+ready to commit until 3 weeks later. That merge was hell, however I resolved all of the conflicts, applied 
+these changes to anything that had changed in the six-month gap since, and made it work well.
+
+The problem here is that this was a fairly major change to the codebase. I was conscious of this as I did it, 
+and I made that change successfully. I'm fairly certain that Andrey (our CTO) then proceeded to spend another 
+day of his own time, verifying everything that I'd already verified (because there were issues with trust on 
+this team).
+
+He wasn't exactly happy that I'd done this - nobody had asked, after all. I'm the sort who takes initiative. 
+I do so conscious of the risks that it entails, and I successfully mitigated those risks. 
+
+Near as I can tell, Andrey then proceeded to ask Leo to do fundamentally the same thing as I'd already done, 
+only he did so poorly, and proceeded to wipe the annotations from the entire application. The problem with 
+that, is that not all of the annotations pertained to ApiPlatform. There were others that were for PHPDocs, 
+which provided Type information to be intuited, and thus were still quite useful. Out of his ignorance, he 
+programatically wiped them all.
+
+### Device Registration
+In order to implement Push Notifications, I needed to provide endpoints that allowed for Device Login/Logout.
+
+The obvious solution was to use Controllers, which was the pattern I saw being used throughout much of the 
+application. The problem with this is that, when doing so, these endpoints weren't being documented automatically 
+using ApiPlatform. I found this automatic documentation to be very helpful when testing my changes to the application, 
+so I read through the documentation, and found out how to implement this feature in a manner that retained 
+this benefit of ApiPlatform.
+
+I used Actions, instead of Controllers, and ApiResource attributes to ensure that custom endpoints are 
+documented in teh same fashion as the automatically generated endpoints. I then proceeded to change the 
+annotation keyword and types, enabling a custom summary and description of the endpoints in the OpenAPI Documentation. 
+
+I then took this a step further, using a Controller to handle the response, a Repository for record lookup, 
+a Service for record modification/storage, and Entity for a model. The Controller was structured using 
+Actions, which enabled the defintion of routes on the Entity class, instead of within the controller. This 
+enabled the OpenAPI Documentation to include the custom endpoints, while also ensuring a separation of 
+concerns.
+
+### Create Super User
+Coming from a RAILS background, and being used to the ready availability of certain convenience methods, 
+accessable from the command line within the root directory, I found that it was possible to provide 
+the same features by defining a Command within Symfony.
+
+This was the initial command that I found lacking, and the first that I created. For expediency, I didn't 
+totally implement this functionality, instead requiring that an account is created through the registration 
+flow on the front-end, and then running the `php bin/console app:createsuperuser <email>` command. If the 
+account is not yet verified, then it will be marked as verified, and in addition, it will be provided with 
+super-user privileges.
+
+### Documentation
+Documentation of this application was very scarce, and I found this to be problematic, because actually, 
+it was quite complex, consisting of two different front-ends, a back-end, mobile, as well as a few 
+microservices. I documented how these parts interconnected, and the steps required to bring the local 
+environment up to a level where it was possible to test features locally, instead of doing so in production.
+
+This took a lot of work - I had to talk to a lot of people, find out how the manufacturing flow worked in 
+production, and figure out which applications talked to which applications to create the required models 
+in the required places to enable the application to work as designed.
+
+I succeeded in doing this, and then I documented it in the README, so that anyone coming afterwards would 
+have a very low barrier for entry into understanding how the application worked, as well as setting up their 
+local environment such that they were capable of locally testing their changes.
+
+Additionally, during the process of documenting this, I also converted many of the endpoints to use the 
+ApiPlatform Actions syntax, which resulted in any endpoint I touched being provided with automamtic 
+documentation, and the easy means to exercise/test the endpoint.
+
+### Push Notifications
+With every conceivable improvement having been made to the patterns encountered, I set to work actually 
+implementing the Push Notifications. I started with Temperature, and Low Battery, which were fairly 
+simple to implement, tested, and found to be working.
+
+The remainder of the functionalities proved more difficult to test. They pertained to triggers that came 
+about from data that was programatically processed using the ProcessSensorDataQueue command.
+
+The result of this is that I had implemented the functionality, however I had no way of knowing if it actually 
+worked.
+
+#### QueueSensorData
+To solve this problem, I created the QueueSensorData command. I used the ZenStruck Foundry package to 
+programatically instantiate thousands of models with data of the correct type, such as to be correctly 
+processed by the system, and ultimately enable me to exercise the functionality I'd created.
+
+Doing so requitred me to understand, from top-bottom, what messages were being passed, what the data looked 
+like, and then to create it programatically.
+
+I did this, and I successfully exercise my code. In so doing, I discovered that only a part of the feature 
+was working. The problem was not with anything I wrote, but rather was a hidden defect in the code that I 
+was depending upon, written by Leo.
+
+#### Quality
+This was a problem, because this code was absolutely dreadful to read. The logic was contained within 7 layers 
+of nested if/for statements, and what's more, the way that it was architected, it was actually impossible to 
+change the notification emails that were being generated without completely refactoring the logic.
+
+I set out to do this, but it was a thankless job, and the more that I did it, the more I started to hate myself. 
+Deep inside I felt a rot. I'd been putting in vast amounts of effort to make use of Best Practices, thinking 
+through my changes, and documenting them, so that others wouldn't suffer unduly.
+
+This wasn't a sentiment that was shared, but what's more, this work that I was doing wasn't really valued. 
+I tried very hard to do the things that I viewed as important, as a Developer - every forward thinking 
+thought that came to mind. I sought ot be considerate for the other members of my team, treating the improvements 
+that I made as learnings to be shared, with justifable value to support their use.
+
+None of this was returned. It bothered me.
+
+#### Notifications
+By virtue of the previously mentioned, absolutely soul-crushing refactoring, I enabled the improvement of 
+the email notifications being sent. I took some time to improve the layout, clean them up, and raise the 
+level of quality to something I could take pride in. I fixed the typos, fixed the bugs, and delivered a 
+good feature.
+
+## Lessons
+The last commit on record was on Sept. 11 - I'd finished everything that I was working on, fixed everything 
+that I'd found wanting, and taken responsibility for a plethory of things that were not actually mine.
+
+This was a problem, actually. I wasn't the C.T.O. -- I wasn't even a Senior Developer. I was tasked with 
+delivering a feature, and what I delivered was far greater than what I was tasked with. I delivered Best 
+Practices. I delivered useful patterns. I chronicled everything that I did in the git logs (and in fact, 
+it's those very logs that have given me the context needed to tell this story now).
+
+I did my very best, upholding the values I'd internalized since the very beginning of my journey into 
+Development. Nobody told me not to - these are obviously valuable things, but the subtext I felt was that 
+what I was doing was not, in fact, valued. This had a corrosive effect on my mental health, and that's 
+ultimately what killed this position.
+
+Now, any reasonable person, should they be suffering unduly in a job, they'll simply look for another job. 
+I struggled with this, instead seeking to make things better where I was, but in reality, this is something I've 
+learned it's not worth doing.
+
+As one person, and most especially as a new hire, you're unlikely to see success in changing the culture. And 
+what pained me most about my time here was the culture. There were no code reviews, little support, and I felt very, 
+very alone the vast majority of the time. I found my relationship with longer-tenured developers devolved into 
+active antagonism, and there was no-one around in a leadership role with the time to do anything.
+
+The reason is that the CTO, despite being in that leadership role, spent the bulk of his time developing. 
+This isn't necessarily on him, though - it's the nature of startups, at an early stage, with limited staff. 
+Support is a luxury that isn't often afforded.
+
+## Legacy
+What I left behind is code that I feel proud of. Anything new that I did was documeented, either in the code, or 
+in the README, and this was done intentionally. I sought to make myself replaceable - because that's what a 
+Good Developer does. A Bad Developer writes code that no-one else can maintain, understand, or extend, and in 
+so doing they derive a certain sense of job security. It actually becomes painful to replace them.
+
+It might have served me better, to have set into that mold, but that's not my style. I write good code, I 
+lay down good patterns, and I document my learnings so that nobody need suffer in the same style as me.
+
+I'm confident that my work here was qutie good. My failings are much more to do with culture, and finding 
+that it's not so simple as finding a job that pays well. A cultural fit is essential, and the development 
+culture is something quite removed from the culture of the company itself (which I touched on earlier in this 
+article). 
+
+In this case, I didn't quite fit.
+
+
+
 
