@@ -1,6 +1,6 @@
 ---
 title: "Sustainergy"
-description: "Opti-Mized - Building Energy Usage Dashboard for IoT Sensor Project"
+summary: "Opti-Mized - Building Energy Usage Dashboard for IoT Sensor Project"
 slug: "sustainergy"
 date: "2022-09-22"
 image: main.png
