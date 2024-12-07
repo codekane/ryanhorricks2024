@@ -3,6 +3,7 @@ title: "ESP32-S2 LED Controller"
 summary: "Continuing with my experiments, and my penchant for using spare parts, I built another controller using the ESP32-S2. I equipped it with a rotary encoder, however my prime interest was in seeing how limited the S2 was compared to the S3, when being tasked with audio processing. The answer was quite - it did in fact work, however it came at the cost of UI responsiveness, with the web server often slowing to a crawl, and the audio processing time entering into the DANGER ZONE."
 date: "2023-11-16"
 lastmod: "2024-10-30"
+draft: true
 tags:
     - "Lit"
 ---
