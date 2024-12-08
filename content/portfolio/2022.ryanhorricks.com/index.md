@@ -4,6 +4,7 @@ date: "2022-09-11"
 externalUrl: "https://2022.ryanhorricks.com"
 summary: "Fresh from my first Shambhala, the 2022 version of my website."
 description: "Last year's version, built using Gatsby by someone who'd yet to discover the joys of living for himself, instead of others."
+summary: "The 2022 version of my site, built using React/Gatsby, and deployed using Netlify."
 image: main.png
 _build:
     render: "false"
