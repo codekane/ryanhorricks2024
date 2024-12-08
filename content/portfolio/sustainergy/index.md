@@ -1,6 +1,7 @@
 ---
 title: "Sustainergy"
 summary: "Opti-Mized - Building Energy Usage Dashboard for IoT Sensor Project"
+summary: "Opti-Mized - Building Energy Usage Dashboard for IoT Sensor Project. Featuring a Python/Django Back-End, and an Angular Front-End, I was responsible for turning a glorified tech-demo into a functional Full-Stack Application."
 slug: "sustainergy"
 date: "2022-09-22"
 image: main.png
