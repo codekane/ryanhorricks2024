@@ -2,6 +2,7 @@
 title: "Halo"
 slug: "halo"
 description: "I found these strips of waterproof 12V RGB LED's next to the dumpster. Testing revealed that the controller was broken, so I created a new one!"
+summary: "I found several strips of waterproof 12V RGB LED's next to the dumpster, alongside a broken controller. I created a new controller using an Arduino Pro Mini, and fashioned the waterproof strips into an absurdly bright halo."
 date: "2020-09-11"
 image: main.jpg
 lastmod: "2024-10-29"
