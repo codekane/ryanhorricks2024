@@ -2,6 +2,7 @@
 title: "SpokeBooks - Bespoke Notebooks"
 slug: "spokebooks"
 description: "A line of notebooks made out of metal wire, upcycled vinyl flooring, and the golden ratio."
+summary: "Building a Better Notebook - through successive iterations, and a period of many months I fashioned something fantastic, upcycling vinyl flooring samples for the covers, using high-weight paper, bronze bindings, and blank pages. Includes both a notebook, and a pocketbook form factor."
 date: "2020-01-30"
 image: main.jpg
 lastmod: "2024-10-28"
@@ -63,8 +64,8 @@ can do that. But for now, there you are.
 ##Construction
 
 {{<gallery>}}
-<img src="spokebooks-hole-punch.jpg" class="grid-w50 md:grid-w33" />
-<img src="covers-and-stacked-pages.jpg" class="grid-w50 md:grid-w33" />
+<img src="spokebooks_hole_punch.jpg" class="grid-w50 md:grid-w33" />
+<img src="covers_and_stacked_pages.jpg" class="grid-w50 md:grid-w33" />
 <img src="set_of_six_notebooks.jpg" class="grid-w50 md:grid-w33" />
 <img src="six_notebooks_side_view.jpg" class="grid-w50 md:grid-w33" />
 {{</gallery>}}
@@ -72,14 +73,14 @@ can do that. But for now, there you are.
 
 ## Finished Products
 {{<gallery>}}
-<img src="do-not-panic.jpg" class="grid-w50 md:grid-w33" />
+<img src="Do Not Panic.jpg" class="grid-w50 md:grid-w33" />
 <img src="black-limestone.jpg" class="grid-w50 md:grid-w33" />
 <img src="blue-blue.jpg" class="grid-w50 md:grid-w33" />
 <img src="blue-cream.jpg" class="grid-w50 md:grid-w33" />
 <img src="burgundy-cream.jpg" class="grid-w50 md:grid-w33" />
 <img src="burgundy-mist.jpg" class="grid-w50 md:grid-w33" />
 <img src="colonial-blue.jpg" class="grid-w50 md:grid-w33" />
-<img src="dontpanic.jpg" class="grid-w50 md:grid-w33" />
+<img src="dontpanic.png" class="grid-w50 md:grid-w33" />
 {{</gallery>}}
 
 ![Don't Paniccccccc](dontpanicccc.jpg)
