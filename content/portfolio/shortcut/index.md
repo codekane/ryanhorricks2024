@@ -2,6 +2,7 @@
 title: "Shortcut"
 slug: "shortcut"
 description: "Basic URL Shortener built using Ruby and Sinatra."
+summary: "URL Shortener, built using Ruby and Sinatra."
 date: "2018-10-01"
 image: home.png
 

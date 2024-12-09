@@ -2,6 +2,7 @@
 title: "Fancy55"
 slug: "fancy-55"
 description: "Nixie Letters, Numbers, and the case of the overambitious logo."
+summary: "An incredibly ambitious logo, featuring Nixie Tubes, and a form to change the way it's displayed. Built using Jekyll, and JavaScript."
 date: "2019-03-01"
 image: main.png
 

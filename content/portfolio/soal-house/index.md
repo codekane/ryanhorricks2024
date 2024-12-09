@@ -2,6 +2,7 @@
 title: "SOAL House - Shepards of Abundant Living "
 slug: "soal-house"
 description: "Volunteer work for the house I living at, featuring an online storefront, admin panel, room bookings, and artist profiles."
+summary: "Static site built using Jekyll featuring an Online Storefront, Admin Panel, Room Bookings, and Artist Profiles for the SOAL House. Features a fully custom theme, built using liquid templates, and a lot of hand-written CSS, alongside third-party integrations to enable full functionalities."
 date: "2019-07-11"
 image: main.png
 
