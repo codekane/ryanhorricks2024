@@ -1,11 +1,12 @@
 ---
 title: "eMotors Direct"
 description: "Motiometer - IoT Sensor Project"
-summary: "Motiometer - IoT Sensor Project. Work etailed implementing Push Notificatios using a PHP Symfony Back-End, a React Front-End, and a Java Android App that  collectively communicate, and process data collected from a swarm of ESP32 microprocessors."
+summary: "Motiometer - IoT Sensor Project. Work entailed implementing Push Notificatios using a PHP Symfony Back-End, a React Front-End, and a Java Android App that  collectively communicate, and process data collected from a swarm of ESP32 microprocessors."
 slug: "emotors-direct"
 date: "2023-09-13 00:00:00-0700"
 image: main.png
 lastmod: "2024-11-21"
+draft: true
 ---
 ## Foreword
 I joined eMotors in May of 2023, after applying for an Intermediate-Senior Front-End Developer position. This 
