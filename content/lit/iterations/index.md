@@ -10,6 +10,7 @@ aliases:
     - "/portfolio/esp32-s3-oled-led-controller/"
     - "/portfolio/esp32-s2-led-controller/"
     - "/portfolio/esp8266_split_rail_led_controller/"
+    - "/portfolio/iterations"
 ---
 
 

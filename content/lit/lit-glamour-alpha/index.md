@@ -8,6 +8,8 @@ image: panel.png
 lastmod: "2024-10-29"
 tags:
     - "Lit"
+aliases:
+    - "/portfolio/lit-glamour-alpha"
 
 ---
 This project started, in its current iteration, on New Years Eve, 2022. In fact, it began 3 years earlier, in 

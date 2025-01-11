@@ -5,6 +5,8 @@ summary: "A much smaller, lighter source of power than my previous devives. It u
 lastmod: "2024-11-01"
 tags:
     - "Lit"
+aliases:
+    - "/portfolio/3000-mah-power-pack"
 ---
 ## Foreword
 I've always been cautious when it comes to batteries. When I first broached this project to some experienced electrical engineers, they 

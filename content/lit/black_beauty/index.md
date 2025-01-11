@@ -2,9 +2,11 @@
 title: "Black Beauty"
 date: 2024-07-27
 description: "A Hat is Fine Too."
-summary: "The next-generation of hats, featuring an updated controller, power pack, and a refined method of construcion. It comes with it's fair share of bugs, however the hardware itself is sound, and light enough to comfortably wear for long periods."
+summary: "The next-generation of hats, featuring an updated controller, power pack, and a refined method of construction. It comes with it's fair share of bugs, however the hardware itself is sound, and light enough to comfortably wear for long periods."
 domains: ["Web", "Mobile", "Electrical", "QA"]
 lastmod: "2024-11-01"
+aliases:
+    - "/portfolio/black_beauty"
 tags:
     - "Lit"
 ---
