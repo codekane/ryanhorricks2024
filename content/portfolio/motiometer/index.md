@@ -7,7 +7,8 @@ lastmod: "2025-01-10"
 aliases:
     - "/portfolio/emotors-direct"
 ---
-Client: eMotors Direct | Role: Intermediate Full-Stack Developer
+**Client:** eMotors Direct  
+**Role:** Intermediate Full-Stack Developer
 
 ## Overview
 During my time at eMotors Direct, I contributed to the development of the Motiometer, a next-generation IoT device designed to monitor and analyze motor performance in real time. 
