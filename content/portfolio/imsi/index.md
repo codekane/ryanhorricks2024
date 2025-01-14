@@ -2,6 +2,7 @@
 title: "IMSI"
 description: "Collaborated on software solutions for industrial systems, focusing on enhancing real-time monitoring and communication capabilities. My work spanned desktop application development, 3D data processing, and web-based notification systems. These solutions enabled improved hardware oversight and seamless data integration within complex industrial environments."
 summary: "Collaborated on software solutions for industrial systems, focusing on enhancing real-time monitoring and communication capabilities. My work spanned desktop application development, 3D data processing, and web-based notification systems. These solutions enabled improved hardware oversight and seamless data integration within complex industrial environments."
+summary: "At Industrial Measuring Systems Inc. (IMSI), I developed a desktop RAID monitoring tool using WinForms, integrated 3D point cloud data with CloudCompare, centralized data from numerous devices for analysis, and contributed to a Blazor-based web notification system, enhancing industrial data processing and visualization."
 date: "2024-07-19"
 lastmod: "2025-01-13"
 ---
