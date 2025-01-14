@@ -2,7 +2,10 @@
 title: "The MARA Group"
 summary: "My work as a System Analyst with the MARA Group, helping to bring a SAAS Product to launch in the Digital Health space."
 summary: "Brought on as the Sole Technical Hire to perform QA on a SAAS Application in the Virtual Health Space, developed by an outsourced Ukrainian development firm. This was my first startup experience, and I got to wear a lot of hats, including defending our rationale against the SR/ED board, and substantial efforts in creating a Product Roadmap, and Bug-Tracking System in Jira, creating designs in Figma, and developing websites in WebFlow."
+summary: "As a System Analyst at The MARA Group, I played a pivotal role in developing a virtual care platform by owning the entire QA process, designing and managing corporate websites, and bridging communication gaps between non-technical founders and an outsourced development team. I successfully delivered a detailed Product Roadmap, extended the design system using Figma, and established robust QA workflows in Jira to ensure platform reliability. My work spanned systems analysis, quality assurance, web design, and stakeholder communication, contributing to the platform's technical and creative direction."
+summary: "At The MARA Group, I led the QA process, designed corporate websites, and bridged gaps between non-technical founders and an outsourced development team. I delivered a detailed Product Roadmap, extended design systems in Figma, and established robust QA workflows in Jira to ensure platform reliability."
 date: "2022-06-06"
+lastmod: "2025-01-14"
 image: main.png
 aliases:
     - "/portfolio/instacare"
