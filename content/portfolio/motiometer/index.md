@@ -2,6 +2,8 @@
 title: "Motiometer"
 description: "A next-generation IoT device designed to monitor and analyze motor performance in real time."
 summary: "During my time at eMotors Direct, I contributed to the development of the Motiometer, a next-generation IoT device designed to monitor and analyze motor performance in real time. This innovative project was a departure from their existing e-commerce offerings, emphasizing my ability to tackle new technical challenges and deliver impactful solutions."
+summary: "At eMotors Direct, I developed the Motiometer, an IoT device for real-time motor performance monitoring. I designed scalable back-end architecture with PHP (Symfony), enhanced the Android app with MVVM architecture and RxJava, implemented device management features, integrated push notifications, and improved front-end functionality with a camera switcher in React."
+summary: "At eMotors Direct, I developed the Motiometer, an IoT device for real-time motor monitoring. I built scalable back-end APIs with PHP (Symfony), enhanced the Android app with MVVM architecture and RxJava, implemented device management features, and integrated push notifications to improve usability."
 date: "2023-09-13 00:00:00-0700"
 lastmod: "2025-01-10"
 aliases:
