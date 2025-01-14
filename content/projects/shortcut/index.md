@@ -5,20 +5,8 @@ description: "Basic URL Shortener built using Ruby and Sinatra."
 summary: "URL Shortener, built using Ruby and Sinatra."
 date: "2018-10-01"
 image: home.png
-
-categories:
-    - "Ruby"
-    - "CSS"
-    - "Sinatra"
-    - "jQuery"
-    - "JavaScript"
-
-tags:
-    - "Ruby"
-    - "HTML"
-    - "CSS"
-    - "Sinatra"
-
+aliases:
+    - "/portfolio/shortcut"
 ---
 ![Splash](shortcut.png)
 

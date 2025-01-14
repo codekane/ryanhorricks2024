@@ -5,15 +5,8 @@ description: "Nixie Letters, Numbers, and the case of the overambitious logo."
 summary: "An incredibly ambitious logo, featuring Nixie Tubes, and a form to change the way it's displayed. Built using Jekyll, and JavaScript."
 date: "2019-03-01"
 image: main.png
-
-categories:
-    - "Front-End"
-    - "Liquid"
-    - "Jekyll"
-    - "HTML"
-    - "CSS"
-    - "JavaScript"
-
+aliases:
+    - "/portfolio/fancy-55"
 ---
 [Live Site](https://fancy55.netlify.app/)
 [GitHub](https://github.com/codekane/Fancy55)

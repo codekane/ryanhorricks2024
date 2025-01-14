@@ -5,18 +5,8 @@ description: "A Virtual Kanban Board, emulating the subtle details of a physical
 summary: "A Virtual Kanban Board, built using React/Redux, and designed to emulate the subtle possibilities inherent in a physical board that I had been making use of for organization."
 date: "2021-08-31"
 image: main.png
-
-categories:
-    - "HTML"
-    - "CSS"
-    - "JavaScript"
-    - "React"
-    - "Redux"
-    - "Sketch"
-
-tags:
-    - "Product"
-    - "Front-End"
+aliases:
+    - "/portfolio/dashboard"
 
 ---
 ![Default](default.png)![Complete](complete.png)![Discard](discard.png)

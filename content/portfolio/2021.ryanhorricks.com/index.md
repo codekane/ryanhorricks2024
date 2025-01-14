@@ -7,14 +7,6 @@ image: main.png
 aliases:
     - "/portfolio/ryan-horricks-2021"
 
-categories:
-    - "HTML"
-    - "CSS"
-    - "WordPress"
-
-tags:
-    - "Front-End"
-    - "Portfolio"
-
+draft: true
 ---
 ![Home](home.png)![Portfolio List](portfolio.png)![Portfolio Single](portfolio-single.png)![Comment](portfolio-single-comment.png)

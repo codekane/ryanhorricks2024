@@ -6,6 +6,8 @@ summary: "A desktop app I built to project future blood levels of a medication, 
 date: "2022-11-22"
 lastmod: "2024-11-16"
 image: main.png
+aliases:
+    - "/portfolio/pharmacokinetics"
 ---
 ## Why
 I was inspired to build this app by my work at the MARA group. While I was there, while prospecting for features, 

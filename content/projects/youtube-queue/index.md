@@ -5,17 +5,8 @@ description: "Communal YouTube queue - meant to replace the broken one in ezcape
 summary: "A communal YouTube queue for enjoying videos with my friends, created after the existing feature on ezcapechat stopped working. Built using Ruby/JavaScript. Built using Ruby and JavaScript."
 date: "2020-09-11"
 image: main.png
-
-categories:
-    - "Ruby"
-    - "JavaScript"
-    - "API"
-
-tags:
-    - "Ruby"
-    - "JavaScript"
-    - "API"
-
+aliases:
+    - "/portfolio/youtube-queue"
 ---
 {{< github repo="codekane/Q" >}}
 
