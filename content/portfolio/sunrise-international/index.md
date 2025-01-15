@@ -1,26 +1,10 @@
 ---
 title: "Sunrise International"
-description: "Front-End Development for an artist who inherited her father's empire."
-summary: "My work as a Front-End Developer for CreativeMite - using .NET WebForms, this was my first foray into C#, and also my first full-time role as a developer. I got poached by MARA a couple of months in, and doubled my money, but this was nonetheless a very important stepping stone in my career."
 summary: "I developed responsive front-end interfaces for Sunrise International using ASP.NET WebForms and integrated WordPress with a custom framework via the JSON API. Mentorship from a Senior Developer during this role taught me valuable soft skills, shaping how I approach leadership and collaboration."
 slug: "sunrise-international"
 date: "2021-12-03"
 lastmod: "2025-01-15"
 image: main.png
-
-categories:
-    - "HTML"
-    - "CSS"
-    - "C-sharp"
-    - "ASP.net WebForms"
-    - "JavaScript"
-    - "jQuery"
-    - "WordPress"
-
-tags:
-    - "Front-End"
-    - "Hospitality"
-
 ---
 **Client:** CreativeMite (for SunRise International)
 **Role:** Front-End Developer
