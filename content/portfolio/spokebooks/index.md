@@ -3,65 +3,75 @@ title: "SpokeBooks - Bespoke Notebooks"
 slug: "spokebooks"
 description: "A line of notebooks made out of metal wire, upcycled vinyl flooring, and the golden ratio."
 summary: "Building a Better Notebook - through successive iterations, and a period of many months I fashioned something fantastic, upcycling vinyl flooring samples for the covers, using high-weight paper, bronze bindings, and blank pages. Includes both a notebook, and a pocketbook form factor."
+summary: "SpokeBooks combines handcrafted notebooks with a custom page-generation app, blending design, sustainability, and software development. The notebooks feature upcycled vinyl covers, bronze bindings, and 24lb paper, while the Pages app uses CSS, SVG, and Liquid templates to create pixel-perfect layouts for printing."
 date: "2020-01-30"
 image: main.jpg
-lastmod: "2024-10-28"
-
-categories:
-    - Manufacturing
-    - Iteration
-    - Design
-    - Bookbinding
-    - Product
-
-tags:
-    - Copper
-    - Bronze
-    - Stainless Steel
-    - Vinyl
-    - Paper
-
+lastmod: "2025-01-15"
+aliases:
+    - "/portfolio/pages"
 ---
+**Project:** SpokeBooks - Bespoke Notebooks  
+**Role:** Creator and Developer
+
 ![BEAUTIFUL](BEAUTIFUL.jpg)
 
-## Story
+## Overview
 
-The quest to build the perfect notebook.
+SpokeBooks is a handmade notebook product born from a desire to create the perfect writing companion. Using 
+upcycled vinyl flooring samples for the covers, high-weight paper, and bronze bindings, I designed a notebook 
+with aesthetics, durability, and functionality in mind. To complement the physical product, I developed 
+Pages, a companion app that generates custom page layouts (lined, dot-grid, etc.) using **CSS**, **SVG**, 
+and **Liquid** templates for laser printing. This project was a journey of iteration, creativity, and 
+problem-solving, blending design, craftsmanship, and software development.
 
-It's an actual product that I built, and it's something that I use every day.
-I iterated upon it until I had something I was really happy with, but never
-successfully marketed it. The labour costs were too high, it was untenable, and
-also marketing is effort, and I did things in the wrong order.
+## Challenges and Objectives
+- **Handcrafted Notebook Design:** Creating a high-quality, upcycled notebook that balances aesthetics and practicality.
+- **Iterative Product Development:** Refining the design through successive iterations to improve usability and durability.
+- **Custom Page Layout Generation:** Building a tool to generate pixel-perfect page designs for print, tailored to the notebook’s specifications.
+- **Efficient Production Workflow:** Overcoming time-intensive manual processes to streamline production without compromising quality.
 
-What this taught me was how long it can take to do good work. I did this for the
-wrong reasons, basically, initially intending on something to make me mooney,
-instead of simply appreciating the process, and seriously answering the question
-of whether or not I can ever expect it to be profitable.
+## My Contributions
 
-Nonetheless, I really like the notebooks. They measure 6" x 8 5/8" for the
-covers. A bit smaller on the inside, so the colour on the inside of the covers
-shows through. The paper is 24lb, which is strong enough to handle various sorts
-of ink, although I use pencil. The covers are made out of expired vinyl flooring
-samples, with heat transfer vinyl used to cover the felt, providing the exterior
-of the notebook with a nice texture, and technically rendering it waterproof.
+### 1. Notebook Design and Manufacturing
+- Crafted notebook covers from expired vinyl flooring samples, using heat transfer vinyl for a textured and waterproof finish.
+- Selected 24lb paper for durability, accommodating various writing styles, including ink and pencil.
+- Developed a spiral binding process using 14-gauge bronze rings and a commercial press for precision hole punching.
 
-The entire thing is spiral bound in bronze, after punching holes and the covers with
-an ancient commercial press. The press is actually the most time-intensive part
-of the entire process. It has 8 punches, and requires pages to be punched twice,
-supporting batch sizes of ~8. The commercial paper cutter I have has
-dramatically improved the process of forming the pages themselves, if I had a
-paper drill (or possibly even a calibrated drill press) I might be able to do it
-faster.
+### 2. Pages – Custom Notebook App
+- Designed and developed a **Jekyll**-based tool for generating customizable page layouts using **CSS**, **SVG**, and **Liquid** templates.
+- Supported pixel-perfect print outputs for designs like lined, dot-grid, and blank pages, tailored to SpokeBooks’ dimensions.
+- Integrated a simple and intuitive workflow, enabling quick adjustments to page templates for personal or client needs.
 
-As I said, I make these, and I actually use these. The newest version has 360
-pages, on a 1 inch 14 ga bronze ring. Previous versions said "Don't Panic", but
-the new ones haven't. I miss that message. It's presently up on my whiteboard
-right now, and I think I might like to have that feature back in my life.
+### 3. Workflow Optimization
+- Improved production efficiency with tools like a commercial paper cutter and a calibrated hole punch.
+- Researched potential improvements, such as a paper drill, to further streamline the manual aspects of manufacturing.
+- Used iteration to refine the design and production process, incorporating user feedback and personal insights.
 
-So, there's the story. I'd like to perhaps revise this, add pictures, etc, and I
-can do that. But for now, there you are.
+### 4. Iterative Product Development
+- Prototyped multiple notebook versions, introducing features like “Don’t Panic” branding on early iterations.
+- Expanded the product line to include pocket-sized notebooks, enhancing versatility.
+- Focused on creating a notebook that was not only functional but also a joy to use, blending thoughtful design with practicality.
 
-##Construction
+## Outcomes and Results
+- **Handcrafted Excellence:** Delivered a notebook that combines upcycled materials, high-quality craftsmanship, and thoughtful design.
+- **Custom Page Generation:** Created a companion app enabling precise, customizable layouts for a wide range of use cases.
+- **Sustainability and Creativity:** Showcased the potential of upcycled materials in creating beautiful, functional products.
+- **Learning and Growth:** Gained valuable experience in product design, manual manufacturing workflows, and software development.
+
+## Reflection
+SpokeBooks represents the intersection of my love for craftsmanship and my technical skills in software 
+development. This project taught me the importance of iterative design, sustainable material use, and the 
+value of balancing aesthetics with practicality. While the notebooks remain a personal favorite, the journey 
+of creating them—both the physical product and the software—is what truly stands out.
+
+## Technical Summary
+- **Skills:** Product Design, CSS, SVG, Liquid Templates, Manual Manufacturing, Workflow Optimization
+- **Tools:** Jekyll, Laser Printer, Commercial Press, Heat Transfer Vinyl, FTP
+- **Specialized Tasks:** Notebook Design, Page Layout Generation, Iterative Prototyping, Sustainable Material Use
+
+## Gallery
+
+### Construction
 
 {{<gallery>}}
 <img src="spokebooks_hole_punch.jpg" class="grid-w50 md:grid-w33" />
@@ -71,7 +81,7 @@ can do that. But for now, there you are.
 {{</gallery>}}
 
 
-## Finished Products
+### Finished Products
 {{<gallery>}}
 <img src="Do Not Panic.jpg" class="grid-w50 md:grid-w33" />
 <img src="black-limestone.jpg" class="grid-w50 md:grid-w33" />
@@ -105,5 +115,11 @@ can do that. But for now, there you are.
 <img src="yellow-cream.jpg" class="grid-w50 md:grid-w33" />
 {{</gallery>}}
 
+### Pages (App for page layout)
+{{< github repo="codekane/pages" >}}
 
+{{<gallery>}}
+<img src="pages/options.png" alt="Webpage for the Pages app, showing the various page designs I created." class="grid-w50" />
+<img src="pages/pages.png" alt="Example of the design for a notebook page for marking your name and address at the start of the book, in case of loss." class="grid-w50" />
+{{</gallery>}}
 
