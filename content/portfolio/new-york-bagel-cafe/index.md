@@ -5,6 +5,7 @@ description: "Online information and menu for a restaurant I worked at."
 summary: "Static Site built using Jekyll for the New York Bagel Cafe."
 date: "2019-05-07"
 image: breakfast.png
+draft: true
 
 categories:
     - "HTML"

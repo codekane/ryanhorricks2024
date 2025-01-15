@@ -3,61 +3,72 @@ title: "SOAL House - Shepards of Abundant Living "
 slug: "soal-house"
 description: "Volunteer work for the house I living at, featuring an online storefront, admin panel, room bookings, and artist profiles."
 summary: "Static site built using Jekyll featuring an Online Storefront, Admin Panel, Room Bookings, and Artist Profiles for the SOAL House. Features a fully custom theme, built using liquid templates, and a lot of hand-written CSS, alongside third-party integrations to enable full functionalities."
+summary: "I developed a static site for SOAL House using Jekyll, featuring a custom online storefront, admin panel, room bookings, and artist profiles. The project combined Liquid templates with third-party integrations to deliver robust functionality on a minimal budget, supporting the house’s creative and communal mission."
 date: "2019-07-11"
-image: main.png
-
-categories:
-    - "e-Commerce"
-    - "Static"
-    - "Design"
-    - "Liquid"
-    - "Netlify"
-
-tags:
-    - "Jekyll"
-    - "HTML"
-    - "CSS"
-    - "JavaScript"
-    - "AirBnB"
-
+lastmod: "2025-01-16"
 ---
-[Live URL](https://www.soalhouse.ca)
-[Github](https://github.com/codekane/soalhouse)
+**Project:** SOAL House - Shepards of Abundant Living  
+**Role:** Volunteer Developer
 
-![Artwork](artwork.png)![Art Listing](art-listing.png)
+## Overview
+SOAL House was a unique blend of community, art, and hospitality. As a volunteer developer, I built a static 
+site using **Jekyll** to support its mission, featuring a custom-designed online storefront, admin panel, room 
+booking functionality, and artist profiles. This project utilized **Liquid** templates, hand-written **CSS**,
+and third-party integrations to create a cost-effective and functional platform. While the house itself is no 
+longer operational, this project served as an early exploration into JAMstack development and 
+community-driven web solutions.
 
-![Artists](artists.png)![Artisan Profile](artisan-profile.png)
+## Challenges and Objectives
+- **Static Site Development:** Building a fully custom theme from scratch using **Jekyll** and **Liquid** templates.
+- **Feature Integration:** Enabling e-commerce, room bookings, and artist profiles via third-party integrations.
+- **Cost Efficiency:** Delivering robust functionality within a $10/month budget for hosting and e-commerce tools.
+- **Administrative Simplicity:** Creating an admin panel to streamline management for non-technical users.
 
-![Home](home.png)![About](about.png)![Accomodations](accomodations.png)
+## My Contributions
 
-![Admin](admin.png)
+### 1. Custom Theme and Static Site Development
+- Designed and implemented a responsive, fully custom theme using **Liquid**, **HTML**, **CSS**, and **JavaScript**.
+- Built the site from the ground up without relying on pre-existing templates, ensuring a unique and tailored design.
 
-This is another whole chapter in my life. I moved into the SOAL House on
-February 14, 2019, because I finally got some money, and I felt the need to run
-away from the street preacher I'd been shacking up with for the two weeks prior.
-Truthfully, that wasn't even that bad, considering I'd shown up in the city with
-my life and a backpack, and had thumbed a ride from the airport to Whyte, where
-I sat in a coffee shop waiting for my friend to get home, and there I met her,
-and she saved me from my friend (the Devil) but tripped all my issues in the
-process, and so I ran, and I ran to where I knew I could: The SOAL House.
+### 2. E-Commerce and Integrations
+- Integrated an affordable e-commerce solution to facilitate art sales, keeping costs under $10/month.
+- Enabled seamless integration with third-party tools for room bookings and artist profile management.
 
-It's not even a real place anymore. It was, but it's last days were numbered to
-those ending in August, 2020, but it was a wonderful place while it lasted. It
-was an AirBnB, and it was a mansion, and it was filled to the brim with art, and
-books, and it had a sunroom, and stairs, and a third story loft where I stayed
-in the room with the half moon window, and door curtain. Once you got to know
-that house, you could sneak any way you liked without meeting a soul you didn't
-like to see.
+### 3. Artist Profiles and Community Features
+- Developed a dynamic artist directory, allowing each artist to showcase their work and provide links to external sites or social media.
+- Linked artist profiles to the storefront, enabling a cohesive browsing and purchasing experience for visitors.
 
-There was a sugar shack out back where we all liked to go to smoke, and that's
-where the idea for this site was born...
+### 4. Admin Panel Implementation
+- Created an intuitive admin panel for managing content, including art listings, room availability, and artist profiles.
+- Focused on simplicity and usability to accommodate non-technical users.
 
-I'll tell you more another day. This one was made in Jekyll, without a template,
-because I decided to roll like that. It's JAMstack, so, I used outside
-integrations to create a CMS, including $10/mo e-commerce functionality. I'm not
-terribly proud of it, really, but this is a sort of a precursor to the work I
-would come to do later, with the Sculptors Association of Alberta, in which
-instance I executed the concept well (the concept being that of an online art
-sale).
+## Outcomes and Results
+- **Functional Community Platform:** Delivered a static site with integrated e-commerce, room booking, and artist profile features.
+- **Cost-Effective Design:** Achieved full functionality while adhering to strict budget constraints.
+- **Skill Development:** Expanded my expertise in JAMstack development, third-party integrations, and responsive design.
 
-There's more to this, obviously. Someday.
+## Reflection
+SOAL House was more than just a technical project—it was a personal chapter and a creative outlet. This 
+experience taught me the value of designing for diverse needs within tight constraints and laid the 
+groundwork for future projects, such as my work with the Sculptors Association of Alberta. The challenges of 
+building a unique platform on a limited budget deepened my understanding of static site architecture and 
+community-driven web development.
+
+## Technical Summary
+- **Skills:** Static Site Development, JAMstack, Responsive Design, Third-Party Integration, E-Commerce
+- **Tools:** Jekyll, Liquid, HTML, CSS, JavaScript, Netlify
+- **Specialized Tasks:** Custom Theme Development, E-Commerce Integration, Artist Directory Creation, Admin Panel Design
+
+## Gallery
+{{< github repo="codekane/soalhouse" >}}
+
+{{<gallery>}}
+<img src="home.png" class="grid-w50 md:grid-w33" />
+<img src="about.png" class="grid-w50 md:grid-w33" />
+<img src="accomodations.png" class="grid-w50 md:grid-w33" />
+<img src="artists.png" class="grid-w50 md:grid-w33" />
+<img src="artisan-profile.png" class="grid-w50 md:grid-w33" />
+<img src="artwork.png" class="grid-w50 md:grid-w33" />
+<img src="art-listing.png" class="grid-w50 md:grid-w33" />
+<img src="admin.png" class="grid-w50 md:grid-w33" />
+{{</gallery>}}
