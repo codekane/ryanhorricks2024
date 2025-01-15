@@ -60,6 +60,7 @@ Sculptors Association of Alberta’s success during a critical time.
 - **Tools:** WordPress, WooCommerce, CSS, HTML, PHP, FTP
 - **Specialized Tasks:** Customized Member Gallery Development, WooCommerce Integration, Hosting Optimization, Custom Theme Development
 
+## Gallery
 
 {{<gallery>}}
 <img src="home.png" alt="Image of the SAA Homepage, that I worked on, complete with the sidebar for members to log in with." class="grid-w50 md:grid-w33" />
@@ -68,12 +69,3 @@ Sculptors Association of Alberta’s success during a critical time.
 <img src="nice-wheeled-home.png" alt="Image of a page for a Single listing from the Pivot Point Art Sale & Show." class="grid-w50 md:grid-w33" />
 <img src="art-sale-over.png" alt="Image of the listings page for the Pivot Point Art Sale & Show, after the sale had ended, displaying a banner stating as such." class="grid-w50 md:grid-w33"/>
 {{</gallery>}}
-
-![Pivot Point Home](home.png)
-![Pivot Point List](items.png)
-![Pivot Point Over](art-sale-over.png)
-
-![Homepage](nice-wheeled-home.png)
-![Member Gallery](member-gallery.png)
-
-
