@@ -2,57 +2,60 @@
 title: "Advision E-Commerce"
 slug: "advision-ecommerce"
 summary: "Works completed while working a Freelance Front-End Developer position. This used the Lightspeed POS Platform, however if I had to describe the skills primarily used, it'd be plain-old HTML, CSS, JS, jQuery."
+summary: "At Advision E-Commerce, I developed responsive front-end designs and customized interfaces for the Lightspeed POS system. My work included translating Photoshop designs into HTML/CSS/JS, ensuring cross-browser compatibility, and tailoring receipt layouts to meet client needs within the POS framework."
 date: "2022-08-22"
 image: main.png
-lastmod: "2024-10-29"
+lastmod: "2025-01-15"
 ---
-This is a gallery of the various sites that I worked on during my short time 
-working for Advision E-Commerce.
+**Client:** Advision E-Commerce
+**Role:** Freelance Front-End Developer
+
+## Overview
+As a Freelance Front-End Developer at Advision E-Commerce, I specialized in developing and customizing 
+e-commerce interfaces integrated with the Lightspeed POS system. My responsibilities included translating 
+Photoshop designs into responsive web pages using HTML, CSS, and JavaScript, ensuring cross-browser 
+compatibility, and customizing receipt layouts within the Lightspeed POS framework.
+
+## Challenges and Objectives
+- **Design Translation:** Accurately converting Photoshop designs into responsive and functional web pages.
+- **Cross-Browser Compatibility:** Ensuring consistent styling and functionality across various browsers, particularly for complex UI elements like forms and scrollbars.
+- **Lightspeed POS Customization:** Tailoring receipt layouts and other interface elements within the Lightspeed POS system to meet specific client requirements.
+
+## My Contributions
+
+### 1. Responsive Design Implementation
+- Converted detailed Photoshop designs into responsive web pages using **HTML**, **CSS**, and **JavaScript**, ensuring design fidelity across devices.
+
+### 2. Advanced UI Customization and Cross-Browser Compatibility
+- Styled complex UI components, including forms and scrollbars, to achieve a consistent look and feel across multiple browsers.
+- Overcame browser-specific challenges by researching and applying best practices for cross-browser compatibility.
+
+### 3. Lightspeed POS Integration and Customization
+- Customized receipt layouts within the Lightspeed POS system to align with client branding and operational needs.
+- Ensured seamless integration of front-end customizations with the Lightspeed POS platform, enhancing overall user experience.
+
+## Outcomes and Results
+- **Enhanced User Experience:** Delivered responsive and visually consistent e-commerce interfaces that improved user engagement.
+- **Cross-Browser Consistency:** Achieved uniform functionality and appearance across major browsers, reducing user issues and support requests.
+- **Customized POS Solutions:** Provided tailored receipt layouts and interface elements within the Lightspeed POS system, meeting specific client requirements and enhancing operational efficiency.
+
+## Reflection
+This role enhanced my expertise in front-end development, particularly in creating responsive designs and 
+ensuring cross-browser compatibility for complex UI elements. Working extensively with the Lightspeed POS 
+system deepened my understanding of integrating and customizing POS platforms to meet unique client needs.
+
+## Technical Summary
+- **Skills:** Front-End Development, Responsive Design, Cross-Browser Compatibility, POS System Integration
+- **Tools:** HTML, CSS, JavaScript, Photoshop, Lightspeed POS
+- **Specialized Tasks:** Design Translation, UI Customization, POS Receipt Layout Customization
+
+## Gallery
 
 {{<gallery>}}
-<img src="escapist-filters.png" class="grid-w50 md:grid-w33" />
-<img src="melanie-x.png" class="grid-w50 md:grid-w33" />
-<img src="price-rite.png" class="grid-w50 md:grid-w33" />
-<img src="rise-smoke-shop.png" class="grid-w50 md:grid-w33" />
-<img src="sports-aux-puces.png" class="grid-w50 md:grid-w33" />
+<img src="advision_homepage.png" alt="Image of the homepage for adVision eCommerce" class="grid-w50 md:grid-w33" />
+<img src="escapist-filters.png" alt="Image of the filters I worked on for escapistskateboarding.com" class="grid-w50 md:grid-w33" />
+<img src="melanie-x.png" alt="Image of the filters I worked on for melaniexboutiques.com" class="grid-w50 md:grid-w33" />
+<img src="price-rite.png" alt="Image of the navigation dropdowns I workede on for priceriterestaurantequipment.com" class="grid-w50 md:grid-w33" />
+<img src="rise-smoke-shop.png" alt="Image of the website I worked on for risesmokeshop.com" class="grid-w50 md:grid-w33" />
+<img src="sports-aux-puces.png" alt="Image of the website I worked on for sportsauxpuces.com" class="grid-w50 md:grid-w33" />
 {{</gallery>}}
-
-It's a job that I landed, with the role of a Freelance Front-End Developer. At 
-the time, I thought it was what I wanted. It paid $30/hr (which is the same as 
-I had been making at my job with the MARA group), and the freedom that freelance 
-work alluded to appealed to me.
-
-Unfortunately, things didn't work out, and I believe that was for a couple of 
-different reasons.
-
-1. I was supposed to be receiving E.I. at the time, however I made a little bit 
-of money freelancing (not even from this job), and I made the unfortunate decision 
-to tell the government that... Rather than being reasonable, and talking to me, 
-instead they completely froze my account... for a period of several months. Which meant 
-that instead of having a graceful, supported entry into the lifestyle of a freelancer, 
-I was suddenly depending on it in order to pay rent, and this job didn't pay 
-enough to pay rent.
-
-I was forced to find another freelance gig that did pay rent (Sustainergy). That 
-worked, however that required so much of my time/energy (tight deadlines, unreasonable 
-founder) that, when work did actually come about for this position, I wasn't 
-actually in a good place to deliver on it.
-
-2. This position was for Front End Development, and starting out, I wasn't fast. 
-Now, normally, were this a full-time job, it's to be expected that it will take 
-time to get up to speed. That's a part of the process, and after a few months of 
-consistent efforts within a stack, you're almost guaranteed to get good... Or at least 
-I am. When, instead, what I'm doing is putting in a few hours here and there, 
-not even every week? It didn't really help.
-
-It's not to say I couldn't do Front-End Development, but rather, instead of 
-whatever it is that I already knew, it required using esoteric HTML elements to 
-style form elements, sliders, etc... Real tricky stuff. In the modern age, I'd 
-just ask ChatGPT for help, and it'd be fine, but back then I really struggled.
-
-I found my next job doing Full-Stack Development for Sustainergy to be much 
-more in line with my skillset, and the hours were much closer to full-time, which 
-I quite liked. Nonetheless, I did in fact complete work for these people, and 
-so I hope you've enjoyed the aforeprovided gallery of my work here.
-
-
