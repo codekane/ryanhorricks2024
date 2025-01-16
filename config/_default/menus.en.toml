@@ -13,7 +13,7 @@
 [[main]]
   name = "Lit"
   pageRef = "lit"
-  weight = 10
+  weight = 30
 
 [[main]]
   name = "Projects"
@@ -23,7 +23,7 @@
 [[main]]
   name = "Portfolio"
   pageRef = "portfolio"
-  weight = 30
+  weight = 10
 
 # [[main]]
 #   name = "Blog"
