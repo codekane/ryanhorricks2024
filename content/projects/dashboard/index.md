@@ -1,45 +1,69 @@
 ---
 title: "Dashboard"
 slug: "dashboard"
-description: "A Virtual Kanban Board, emulating the subtle details of a physical board that I made."
-summary: "A Virtual Kanban Board, built using React/Redux, and designed to emulate the subtle possibilities inherent in a physical board that I had been making use of for organization."
+summary: "Dashboard is a virtual Kanban board built with React/Redux, designed to mimic the flexibility of a physical board. Using Sketch for UI mockups, it prioritizes user freedom, allowing dynamic card movement without the constraints of rigid rows or columns, offering a unique take on organizational tools."
 date: "2021-08-31"
-image: main.png
+lastmod: "2025-01-16"
 aliases:
     - "/portfolio/dashboard"
-
 ---
-![Default](default.png)![Complete](complete.png)![Discard](discard.png)
-![Edit](edit.png)![Edit View](edit-view.png)![Create](create.png)![Finish](finish.png)
+**Project:** Dashboard - Virtual Kanban Board  
+**Role:** Solo Developer
 
+## Overview
+Dashboard is a virtual **Kanban board** designed to emulate the subtle possibilities of a physical board I 
+had been using for personal organization. Built with React/Redux, this tool focuses on flexibility and 
+freedom, enabling users to move cards dynamically without the rigid rows and columns often found in 
+traditional tools like Asana or Trello. This project was a personal challenge to create something unique 
+and functional while refining my front-end development skills.
 
-![This One is Best!](triple-dash-svelte.png)
+## Challenges and Objectives
+- **Creating Flexibility:** Designing a board that avoids the rigid structures of traditional Kanban tools, allowing users to move cards freely.
+- **Enhanced User Interaction:** Emulating the tactile experience of a physical board in a digital interface.
+- **Iterative Development:** Building and refining the application over multiple weeks to create a polished product.
 
-Now, why I made this is a little bit funny, and a little bit sad. I had applied
-to a company called C.B.S. - Convenient Business Solutions. Wrote them a
-heartfelt letter, and made it through two interviews. They turned me down,
-because some gatekeeping nerd wasn't impressed with what I knew of React...
+## My Contributions
 
-I saw that the job was re-posted, but, having just gotten rejected I was a
-little bit low. I figured, fuck it, let's make something in a week that'll
-change their mind.
+### 1. Front-End Development
+- Built the application using **React** and managed state with **Redux**, ensuring a seamless and responsive user experience.
+- Focused on dynamic card movement, mimicking the freedom of physical boards.
+- Designed and implemented key features, including card creation, editing, and completion, with an intuitive interface.
 
-I took that week, and what I made was not going to change anyones minds. So I
-put another week into it, and another. What I wound up with was this:
+### 2. Design and User Experience
+- Used **Sketch** to mock up and design the user interface, ensuring a clear and user-friendly workflow.
+- Modeled the digital board after a physical Kanban board I had previously used, capturing the subtle nuances of tactile organization.
+- Created a customizable interface to allow users to adapt the board to their personal workflows.
 
-Core premise is that it's a kanban board. That's not novel, you see those lots
-of places. Asana. Trello. Etc... But this is different. Those tools all have
-mandatory granular rows and columns... I find it to be limiting. I like to move
-cards around, and I just so happened to have built the pocketbooks for the
-cards, and the board was a set of blinds I'd acquired from a Goodwill in years
-past.
+### 3. Problem-Solving and Persistence
+- Developed the project as a personal challenge after a job rejection, channeling motivation into a unique and functional tool.
+- Overcame setbacks, including lost progress due to a wiped laptop, by focusing on continued learning and improvement.
 
-So, I had these boards physically, but, in the process of making this Dashboard,
-I had also given notice to my landlord, and still had no job. So, basically end
-days. And I made this instea dof worry about it. I worked full time at this
-project, and it's sad, because it's actually a little bit better than you can
-find on the live version. I had more code, but I apparently never pushed it, and
-that laptop wound up being wiped without it ever being uploaded.
+## Outcomes and Results
+- **Functional Kanban Board:** Delivered a virtual tool that blends the flexibility of physical boards with the convenience of digital interfaces.
+- **Skill Development:** Deepened my expertise in **React** and **Redux**, while enhancing my understanding of user-focused design.
+- *Creative Achievement:** Built a distinctive application that challenges traditional Kanban paradigms and emphasizes user freedom.
 
-It's okay. The story continues with the next slide. I got a job, and everything,
-and it was cool.
+## Reflection
+This project was both a technical and personal journey. While initially inspired by a professional 
+rejection, Dashboard became a platform for exploring creative solutions to organizational challenges. 
+Building this application reinforced my belief in the value of flexibility, both in design and in life, 
+and demonstrated the power of persistence and iteration.
+
+## Technical Summary
+- **Skills:** React Development, Redux State Management, User Experience Design, Iterative Development
+- **Tools:** React, Redux, CSS, JavaScript, Sketch
+- **Specialized Tasks:** Dynamic Card Movement, Customizable Workflow Design, Front-End Optimization
+
+## Gallery
+{{ < github repo="codekane/Dashboard" > }}
+
+{{<gallery>}}
+<img src="triple-dash-svelte.png" class="grid-w50 md:grid-w33" />
+<img src="default.png" class="grid-w50 md:grid-w33" />
+<img src="complete.png" class="grid-w50 md:grid-w33" />
+<img src="discard.png" class="grid-w50 md:grid-w33" />
+<img src="edit.png" class="grid-w50 md:grid-w33" />
+<img src="edit-view.png" class="grid-w50 md:grid-w33" />
+<img src="create.png" class="grid-w50 md:grid-w33" />
+<img src="finish.png" class="grid-w50 md:grid-w33" />
+{{</gallery>}}
