@@ -58,4 +58,4 @@ art and technology.
 - **Specialized Tasks:** URL Shortening, Redirection, Database Design, SVG Graphics Creation
 
 ## Repositories
-{{<github repo="https://github.com/codekane/Shortcut">}}
+{{<github repo="codekane/Shortcut">}}
