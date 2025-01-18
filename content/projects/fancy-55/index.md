@@ -3,6 +3,7 @@ title: "Fancy55"
 slug: "fancy-55"
 summary: "Fancy55 is an interactive web experience inspired by Nixie Tube displays. Built using Jekyll, Liquid templates, jQuery, and JavaScript, it transforms the visual style of a Nixie clock into a dynamic logo that displays user-entered text sequentially. With customizable colors and effects, it merges creativity with technical innovation."
 date: "2019-03-01"
+lastmod: "2025-01-18"
 image: main.png
 aliases:
     - "/portfolio/fancy-55"
