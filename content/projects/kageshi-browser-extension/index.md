@@ -2,6 +2,7 @@
 title: "Kageshi Browser Extension"
 description: "A group project, hacking the fancy new JavaScript frontend for a video conferencing site."
 summary: "A Firefox/Chrome Extension created for the now-defunct video chat website ezcapechat (formerly kageshi). It made use of the switch to JavaScript from Flash, enabling a small group of us to combine, and create some fun features to extend the base functionalities of the website."
+summary: "The Kageshi Browser Extension extended the functionality of the video chat platform ezcapechat by leveraging its transition from Flash to JavaScript. Built for both Firefox and Chrome, it added creative features to the platform and highlighted the potential of browser-based extensions through reverse engineering and collaborative development."
 date: "2020-10-21"
 lastmod: "2025-01-18"
 image: kageshit.png
