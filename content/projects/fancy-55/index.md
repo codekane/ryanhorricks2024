@@ -1,46 +1,63 @@
 ---
 title: "Fancy55"
 slug: "fancy-55"
-description: "Nixie Letters, Numbers, and the case of the overambitious logo."
-summary: "An incredibly ambitious logo, featuring Nixie Tubes, and a form to change the way it's displayed. Built using Jekyll, and JavaScript."
+summary: "Fancy55 is an interactive web experience inspired by Nixie Tube displays. Built using Jekyll, Liquid templates, jQuery, and JavaScript, it transforms the visual style of a Nixie clock into a dynamic logo that displays user-entered text sequentially. With customizable colors and effects, it merges creativity with technical innovation."
 date: "2019-03-01"
 image: main.png
 aliases:
     - "/portfolio/fancy-55"
 ---
-[Live Site](https://fancy55.netlify.app/)
-[GitHub](https://github.com/codekane/Fancy55)
+**Project:** Fancy55 - Interactive Nixie Tube Display  
+**Role:** Solo Developer
+**Live Site:** [https://fancy55.netlify.app](https://fancy55.netlify.app/)
 
-![Say Something!](say-something-huge.png)
+<img src="say-something-huge.png" />
 
-None of that actually happened, but there were a lot of ideas. Originally,
-fancy55 was supposed to be something much different, much grander. It related to
-many of my other projects, with the aim being to better/improve the experience
-of video chatting with my friends.
+## Overview
+**Fancy55** is a creative and ambitious project inspired by the aesthetics of Nixie Tube displays. Originally 
+based on a Nixie Tube clock designed by another developer, I abstracted their visual method to support any 
+character, including letters and numbers. Built using **Jekyll**, **Liquid templates** **JavaScript**, and 
+**jQuery**, Fancy55 features an interactive logo where users can input text to dynamically control the 
+display, customize colors, and experiment with various aesthetic effects. This project highlights technical 
+ingenuity, artistic expression, and interactive design.
 
-I never got as far as setting up the video chat. I had websocket text chat set
-up via multiple rooms, using ActionCable on Rails. It was an actual full-stack
-app, deployed, and functional. I worked on it while I was in Vancouver,
-housesitting with a friend, and I worked on it while I was homeless in Victoria,
-spending my days at the library working on this project, meanwhile sleeping in a
-shelter.
+## Challenges and Objectives
+- **Aesthetic Excellence:** Abstracting the visual methodology of Nixie Tube displays to dynamically render any character.
+- **Interactive Design:** Enabling users to input text and customize the display's behavior and aesthetics.
+- **Iterative Expansion:** Extending the project to include sequential animations for multiple words and advanced user controls.
+- **Rebuilding from Loss:** Reimagining the project after the original full-stack app was lost due to hardware failure, while incorporating new creative elements.
 
-I didn't expect this story to be so hard to tell, and yet it is. The product of
-that story is not the same as the here on this page. While in Victoria my laptop
-died... I mean, it had been dying, anyway, but the hard drive was no longer
-connected. I eventually fixed it, but in the process of that fix I lost all my
-data, all my progress, and all of my application, save for a git repo that I
-deleted in shame.
+## My Contributions
+### 1. Interactive Design and Development
+- Abstracted the visual design of Nixie Tubes from an existing clock implementation, allowing it to dynamically render any character.
+- Implemented a responsive interface where users can input text, and the logo flashes the entered characters sequentially if multiple words are entered.
+- Added user controls to customize aesthetics, including color and visual effects, allowing for playful experimentation.
 
-What this project is, that's what came after. I'd moved back to Edmonton, found
-a place to be, and started again on my quest. This site was based on a Nixie
-Tube clock I found, made by someone else, on the internet. First I worked to
-better that clock, rendering it proportional to the page, and having it respond
-perfectly to changes in screen width. Then, I remade it, using their styles, but
-creating a nixie tube for every letter of the alphabet, plus some number. And
-there you have it: Fancy55.
+### 2. Front-End Development
+- Built the website using **Jekyll**, leveraging **Liquid templates** to dynamically generate content and streamline front-end development.
+- Enhanced the interactivity with **jQuery** and **JavaScript**, creating a seamless and engaging user experience.
+- Created a flexible and proportional layout that adapts seamlessly to different screen sizes and devices.
 
-I put all of my stock into this once, in dark, delusional days. I thought about
-using the domain name for a Portfolio, as though it was all that I had... And I
-was right. I was playing at being better than I was, and that's what the
-Shortcut was all about... But that's a story for another time.
+### 3. Iteration and Resilience
+- Rebuilt the project after losing the original full-stack app due to a hardware failure, starting anew with fresh inspiration and a refined scope.
+- Pivoted from the original vision of a video chat enhancement tool to an artistic and technical showcase.
+
+## Outcomes and Results
+- **Interactive Showcase:** Delivered a visually captivating Nixie Tube display that highlights creativity and technical skill, complete with dynamic text animations and customizable effects.
+- **Resilience in Development:** Successfully overcame the challenges of data loss and repurposed the project into a focused and impactful creation.
+- **Technical Growth:** Expanded my expertise in responsive design, static site generation, and interactive front-end development using **Liquid templates** and **jQuery**.
+
+## Reflection
+**Fancy55** represents a journey of both technical and personal growth. What began as an ambitious full-stack 
+app transitioned into an artistic expression through Nixie Tube-inspired visuals. By abstracting the design 
+from an existing Nixie clock and leveraging **Liquid templates**, I created a versatile and interactive 
+experience. Rebuilding from scratch taught me valuable lessons about resilience, adaptability, and the 
+potential of combining aesthetics with interactivity.
+
+## Technical Summary
+- **Skills:** Front-End Development, Liquid Template Integration, Responsive Design, Static Site Generation, Interactive Interfaces
+- **Tools:** Jekyll, Liquid Templates, jQuery, JavaScript
+- **Specialized Tasks:** Nixie Tube Design Abstraction, Dynamic Interactivity, Aesthetic Customization, Sequential Animations
+
+## Repositories
+{{<github repo="codekane/Fancy55">}}
