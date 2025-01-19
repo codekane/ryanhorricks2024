@@ -63,10 +63,5 @@ meaningful projects.
 - **Tools:** Jekyll, Liquid Templates, Spectre.css, Google Analytics, CSS, SVG
 - **Specialized Tasks:** Menu Structuring, Accordion Menu Design, SVG Graphics Creation
 
-![Breakfast!](breakfast.png)
-
-
-
-![Breakfast!](breakfast.png)
-
-![Logo](logo.png)![Titled Logo](titled-logo.png)
+## Repositories
+{{<github repo="codekane/NewYorkBagelCafe">}}
