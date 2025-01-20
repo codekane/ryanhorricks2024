@@ -184,9 +184,28 @@ Looking to experiment, I created another controller for a fixed installation usi
 <img src="ESP8266/Case_With_Cables.jpg" class="grid-w50 md:grid-w33" />
 <img src="ESP8266/Case_With_Cables_Side.jpg" class="grid-w50 md:grid-w33" />
 <img src="ESP8266/Case_With_Cables_Back.jpg" class="grid-w50 md:grid-w33" />
-
-
 {{</gallery>}}
 
+### Live Demo (ported from Alpha)
+{{<gallery>}}
+<img src="live_demo/Live_Demo_S3_Mini_1.jpg" class="grid-w50" />
+<img src="live_demo/Live_Demo_S3_Mini_2.jpg" class="grid-w50" />
+<img src="live_demo/Live_Demo_S3_Mini_3.jpg" class="grid-w50" />
+<img src="live_demo/Live_Demo_S3_Mini_4.jpg" class="grid-w50" />
+{{</gallery>}}
 {{<youtube TOupNLcAgPE >}}
+
+### Ensemble (ported from Alpha)
+{{<gallery>}}
+<img src="ensemble/Hat_Plus_Ensemble.jpg" class="grid-w50 md:grid-w33" />
+<img src="ensemble/Purple_Hat_Plus_Ensemble.jpg" class="grid-w50 md:grid-w33" />
+<img src="ensemble/Red_Hat_Plus_Ensemble.jpg" class="grid-w50 md:grid-w33" />
+<img src="ensemble/Sorting_Hat_Plus_Ensemble.jpg" class="grid-w50 md:grid-w33" />
+<img src="ensemble/Dramatic_Hat_Plus_Ensemble.jpg" class="grid-w50 md:grid-w33" />
+<img src="ensemble/Dramatic_Purple_Hat.jpg" class="grid-w50 md:grid-w33" />
+<img src="ensemble/Illuminated_Hat_In_Profile.jpg" class="grid-w50 md:grid-w33" />
+<img src="ensemble/Out_Of_Focus_Hat_Plus_Heart.jpg" class="grid-w50 md:grid-w33" />
+{{</gallery>}}
+
+
 
