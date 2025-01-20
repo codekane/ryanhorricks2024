@@ -9,7 +9,8 @@ title = "Ryan Horricks"
 links = [
   { facebook = "https://facebook.com/ryanhorricks" },
   { linkedin = "https://linkedin.com/in/rhorricks" },
-  { instagram = "https://instagram.com/jesus_basically" }
+  { instagram = "https://instagram.com/jesus_basically" },
+  { github = "https://github.com/codekane" }
 ]
 
 
@@ -27,8 +28,8 @@ links = [
   name = "Ryan Horricks"
   email = "ryanhorricks@gmail.com"
   image = "img/profile.jpg"
-  bio = "Full Stack Engineer - I make things for Mobile, Web, Desktop, and Embedded Applications using Ruby, Java, C#, Python, JavaScript - and whatever else the project requires."
-  headline = "Full Stack Developer - Software Engineer"
+  bio = "Engineer and Storyteller | I create solutions that bridge software, hardware, and human experience. With a passion for learning and a knack for problem-solving, I turn ideas into reality, driven by curiosity and a love for innovation."
+  headline = "Innovator and Engineer | Building Solutions Across Software, Hardware, and Life"
 #   imageQuality = 96
 #   headline = "I'm only human"
 #   bio = "A little bit about you"
