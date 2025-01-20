@@ -4,9 +4,11 @@ slug: "iterations"
 summary: "A series of three prototypes, built to explore the limitations of my available hardware, test faculties for networked inter-connectivity, refine sub-systems, and to realize the core concept."
 summary: "A series of three prototypes - based upon the ESP8266, ESP32-S2, and ESP32-S3. These were built to help me explore the limitations pertaining to processing power, refine the power supply/battery management system, and to provide me with enough devices to test out the faculties for commmunication between devices, to enable wireless synchronization, and ultimately enable me to realize the core concept behind this project."
 date: "2023-12-05"
-lastmod: "2024-12-07"
+lastmod: "2025-01-20"
 tags:
     - "Lit"
+series: ["Lit"]
+series_order: 2
 aliases:
     - "/portfolio/esp32-s3-oled-led-controller/"
     - "/portfolio/esp32-s2-led-controller/"

@@ -6,6 +6,8 @@ date: "2023-07-18"
 lastmod: "2025-01-20"
 tags:
     - "Lit"
+series: ["Lit"]
+series_order: 1
 aliases:
     - "/portfolio/lit-glamour-alpha"
     - "/lit/lit-glamour-alpha"
