@@ -1,17 +1,16 @@
 ---
 title: "Lit Glamour Alpha"
 slug: "lit-glamour-alpha"
-description: "An ambitious plan: scale up to a dozen units within 6 months. Call it stupid, or brave; either way, assumptions were validated."
-summary: "An ambitious plan: Design, Develop and Scale a product from 0 to a dozen units within 6 months... Typical startup energy. I didn't achieve my goal, however I figured out what I really wanted to make, and set the stage for everything to come. This is the story of the first six months."
-summary: "Lit Glamour Alpha marked the inception of Lit, combining custom double-sided LED panels, optimized power systems, and sound-reactive features. Designed with precision, from sourcing hats to embedding LED panels seamlessly, it pushed technical boundaries while exploring usability and aesthetic refinement."
+summary: "Lit Glamour Alpha pushed the boundaries of wearable tech, blending custom double-sided LED panels, advanced optical engineering, and sound-reactive features. This ambitious first phase laid the groundwork for scalable, innovative designs while overcoming challenges in power, weight, and usability."
 date: "2023-07-18"
-image: panel.png
 lastmod: "2025-01-20"
 tags:
     - "Lit"
 aliases:
     - "/portfolio/lit-glamour-alpha"
     - "/lit/lit-glamour-alpha"
+    - "/portfolio/alpha"
+    - "/lit/alpha"
 ---
 **Project:** Lit Glamour Alpha  
 **Role:** Founder and Developer  
