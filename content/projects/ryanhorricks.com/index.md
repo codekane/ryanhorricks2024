@@ -2,7 +2,6 @@
 title: "ryanhorricks.com"
 date: 2024-10-06
 lastmod: 2025-01-21
-summary: "This website is more than a portfolio; it’s a reflection of the person behind it. It’s the culmination of years of work, countless lessons, and a commitment to continuous growth. Thank you for being a part of this journey."
 summary: "Built with Hugo and Blowfish, this portfolio website reflects seven years of professional and personal evolution, created over four months and four countries, leveraging AI and analytics for efficiency and insights."
 ---
 ## Overview

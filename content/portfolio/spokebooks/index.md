@@ -2,7 +2,6 @@
 title: "SpokeBooks - Bespoke Notebooks"
 slug: "spokebooks"
 description: "A line of notebooks made out of metal wire, upcycled vinyl flooring, and the golden ratio."
-summary: "Building a Better Notebook - through successive iterations, and a period of many months I fashioned something fantastic, upcycling vinyl flooring samples for the covers, using high-weight paper, bronze bindings, and blank pages. Includes both a notebook, and a pocketbook form factor."
 summary: "SpokeBooks combines handcrafted notebooks with a custom page-generation app, blending design, sustainability, and software development. The notebooks feature upcycled vinyl covers, bronze bindings, and 24lb paper, while the Pages app uses CSS, SVG, and Liquid templates to create pixel-perfect layouts for printing."
 date: "2020-01-30"
 image: main.jpg

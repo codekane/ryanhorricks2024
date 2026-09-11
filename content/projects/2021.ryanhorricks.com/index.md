@@ -1,7 +1,6 @@
 ---
 title: "2021.ryanhorricks.com"
 description: "Made with WordPress, hosting several experiments, and my first professional photo."
-summary: "The 2021 version of my site. Made with WordPress, it was created largely to better prepare myself to serve clients using WordPress."
 summary: "In 2021, I built a new version of my website using WordPress, experimenting with custom features like a Library to catalog my book collection. I developed an ISBN Lookup Tool to retrieve book metadata via APIs, while refining my WordPress skills and personal branding."
 date: "2021-02-15"
 lastmod: "2025-01-17"

@@ -2,7 +2,6 @@
 title: "Black Beauty"
 date: 2024-07-27
 description: "A Hat is Fine Too."
-summary: "The next-generation of hats, featuring an updated controller, power pack, and a refined method of construction. It comes with it's fair share of bugs, however the hardware itself is sound, and light enough to comfortably wear for long periods."
 summary: "Black Beauty is the third iteration of Lit, featuring refined construction techniques, weight optimizations, and a custom 3000mAh power pack. While the hardware achieved significant progress, challenges with firmware stability and power system design highlighted areas for future refinement."
 lastmod: "2025-01-21"
 aliases:

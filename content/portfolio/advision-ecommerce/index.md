@@ -1,7 +1,6 @@
 ---
 title: "Advision E-Commerce"
 slug: "advision-ecommerce"
-summary: "Works completed while working a Freelance Front-End Developer position. This used the Lightspeed POS Platform, however if I had to describe the skills primarily used, it'd be plain-old HTML, CSS, JS, jQuery."
 summary: "At Advision E-Commerce, I developed responsive front-end designs and customized interfaces for the Lightspeed POS system. My work included translating Photoshop designs into HTML/CSS/JS, ensuring cross-browser compatibility, and tailoring receipt layouts to meet client needs within the POS framework."
 date: "2022-08-22"
 image: main.png
