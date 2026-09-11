@@ -8,6 +8,8 @@ image: main.jpg
 lastmod: "2025-01-15"
 aliases:
     - "/portfolio/pages"
+series: ["Notebooks"]
+series_order: 1
 ---
 **Project:** SpokeBooks - Bespoke Notebooks  
 **Role:** Creator and Developer
